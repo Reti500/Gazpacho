@@ -19,6 +19,9 @@ gem 'sorcery'
 gem "cancan"
 gem "rolify", :git => "git://github.com/EppO/rolify.git"
 
+gem 'serializer'
+gem 'simple_form'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
