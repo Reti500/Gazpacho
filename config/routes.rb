@@ -1,12 +1,16 @@
 Gazpacho::Application.routes.draw do
 
+  get 'login' => 'sessions#new', as: :login
+  get 'logout' => 'sessions#destroy', as: :logout
+
   resources :users
   resources :projects
   resources :forms
   resources :questions
   resources :answers
+  resources :sessions
 
-  root 'users#index'
+  root 'sessions#new'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

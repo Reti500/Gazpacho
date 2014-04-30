@@ -1,4 +1,5 @@
 class ProjectsController < ApplicationController
+  before_action :require_login
   before_action :set_project, only: [:show, :edit, :update, :destroy]
 
   # GET /projects
@@ -25,6 +26,8 @@ class ProjectsController < ApplicationController
   # POST /projects.json
   def create
     @project = Project.new(project_params)
+
+    current_user.projects << @project
 
     respond_to do |format|
       if @project.save
@@ -69,6 +72,6 @@ class ProjectsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def project_params
-      params[:project]
+      params.require(:project).permit(:name, :description)
     end
 end

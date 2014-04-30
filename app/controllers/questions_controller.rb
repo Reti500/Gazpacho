@@ -1,4 +1,5 @@
 class QuestionsController < ApplicationController
+  before_action :require_login
   before_action :set_question, only: [:show, :edit, :update, :destroy]
 
   # GET /questions
@@ -15,6 +16,7 @@ class QuestionsController < ApplicationController
   # GET /questions/new
   def new
     @question = Question.new
+    @forms = current_user.forms
   end
 
   # GET /questions/1/edit
@@ -69,6 +71,6 @@ class QuestionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def question_params
-      params[:question]
+      params.require(:question).permit(:title, :type)
     end
 end

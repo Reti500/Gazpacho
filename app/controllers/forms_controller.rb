@@ -1,4 +1,5 @@
 class FormsController < ApplicationController
+  before_action :require_login
   before_action :set_form, only: [:show, :edit, :update, :destroy]
 
   # GET /forms
@@ -26,6 +27,8 @@ class FormsController < ApplicationController
   def create
     @form = Form.new(form_params)
 
+    current_user.forms << @form
+    
     respond_to do |format|
       if @form.save
         format.html { redirect_to @form, notice: 'Form was successfully created.' }
@@ -69,6 +72,6 @@ class FormsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def form_params
-      params[:form]
+      params.require(:form).permit(:name)
     end
 end

@@ -1,4 +1,4 @@
-<%= form_for(@form) do |f| %>
+<%= simple_form_for @form do |f| %>
   <% if @form.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@form.errors.count, "error") %> prohibited this form from being saved:</h2>
@@ -10,6 +10,10 @@
       </ul>
     </div>
   <% end %>
+
+  <div class="field">
+    <%= f.input :name %>
+  </div>
 
   <div class="actions">
     <%= f.submit %>

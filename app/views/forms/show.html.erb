@@ -1,4 +1,21 @@
 <p id="notice"><%= notice %></p>
 
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td><%= @form.name %></td>
+      </tr>
+  </tbody>
+</table>
+
 <%= link_to 'Edit', edit_form_path(@form) %> |
 <%= link_to 'Back', forms_path %>
