@@ -10,6 +10,7 @@
   </thead>
 
   <tbody>
+  <% if @questions %>
     <% @questions.each do |question| %>
       <tr>
         <td><%= question.title %></td>
@@ -18,6 +19,7 @@
         <td><%= link_to 'Destroy', question, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
+  <% end %>
   </tbody>
 </table>
 

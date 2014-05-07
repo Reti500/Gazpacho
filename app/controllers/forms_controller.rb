@@ -6,11 +6,22 @@ class FormsController < ApplicationController
   # GET /forms.json
   def index
     @forms = Form.all
+
+    respond_to do |format|
+      format.html {}
+      format.json { render json: @forms }
+    end
   end
 
   # GET /forms/1
   # GET /forms/1.json
   def show
+    @questions = @form.questions
+
+    respond_to do |format|
+      format.html {}
+      format.json {render json: @form.questions}
+    end
   end
 
   # GET /forms/new
@@ -31,11 +42,11 @@ class FormsController < ApplicationController
     
     respond_to do |format|
       if @form.save
-        format.html { redirect_to @form, notice: 'Form was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @form }
+        format.html { redirect_to fomrs_path, notice: 'Form was successfully created.' }
+        format.json { render json: { status: 'successfully' } }
       else
         format.html { render action: 'new' }
-        format.json { render json: @form.errors, status: :unprocessable_entity }
+        format.json { render json: @form.errors }
       end
     end
   end
@@ -72,6 +83,6 @@ class FormsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def form_params
-      params.require(:form).permit(:name)
+      params.require(:form).permit(:name, :project_id)
     end
 end

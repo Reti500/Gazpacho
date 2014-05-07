@@ -5,7 +5,12 @@ class QuestionsController < ApplicationController
   # GET /questions
   # GET /questions.json
   def index
-    @questions = Question.all
+    @questions = Question.where(form_id: params[:form_id]) if params[:form_id] else nil
+
+    respond_to do |format|
+      format.html {}
+      format.json {render json: @questions}
+    end
   end
 
   # GET /questions/1
@@ -30,7 +35,7 @@ class QuestionsController < ApplicationController
 
     respond_to do |format|
       if @question.save
-        format.html { redirect_to @question, notice: 'Question was successfully created.' }
+        format.html { redirect_back_or_to forms_path, notice: 'Question was successfully created.' }
         format.json { render action: 'show', status: :created, location: @question }
       else
         format.html { render action: 'new' }
@@ -42,9 +47,11 @@ class QuestionsController < ApplicationController
   # PATCH/PUT /questions/1
   # PATCH/PUT /questions/1.json
   def update
+    @form = Form.find(params[:question][:form_id])
+
     respond_to do |format|
       if @question.update(question_params)
-        format.html { redirect_to @question, notice: 'Question was successfully updated.' }
+        format.html { redirect_to @form, notice: 'Question was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
@@ -71,6 +78,6 @@ class QuestionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def question_params
-      params.require(:question).permit(:title, :type)
+      params.require(:question).permit(:title, :qtype_id, :form_id)
     end
 end

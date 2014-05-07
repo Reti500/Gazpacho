@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.1.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
@@ -19,7 +19,7 @@ gem 'sorcery'
 gem "cancan"
 gem "rolify", :git => "git://github.com/EppO/rolify.git"
 
-gem 'serializer'
+gem "active_model_serializers"
 gem 'simple_form'
 
 # Use SCSS for stylesheets

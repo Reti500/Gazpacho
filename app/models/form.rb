@@ -1,5 +1,7 @@
 class Form < ActiveRecord::Base
 	belongs_to :user
+	belongs_to :project
+
 	has_many :questions
-	has_many :answers
+	has_many :information
 end

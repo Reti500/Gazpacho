@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+Qtype.create(name: 'Abierta')
+Qtype.create(name: 'Cerrada')
+Qtype.create(name: 'Imagen')

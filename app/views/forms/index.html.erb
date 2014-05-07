@@ -1,22 +1,38 @@
-<h1>Listing forms</h1>
+<!-- <p></p>
 
-<table>
-  <thead>
-    <tr>
-      <th></th>
-    </tr>
-  </thead>
+<div class="row ">
+  <div class="col-md-10 col-md-push-1">
+    <div class="panel panel-primary">
 
-  <tbody>
-    <% @forms.each do |form| %>
-      <tr>
-        <td><%= form.name %></td>
-        <td><%= link_to 'Preguntas', questions_url %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+      <div class="panel-heading">
+        Lista de Formularios
+        <span class="pull-right"><%= link_to 'Nuevo Formulario', new_form_path, class: 'btn btn-success btn-xs' %></span>
+      </div>
 
-<br>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
 
-<%= link_to 'New Form', new_form_path %>
+        <tbody>
+          <% @cont = 1 %>
+          <% @forms.each do |form| %>
+            <tr>
+              <td><%= @cont %></td>
+              <td><%= form.name %></td>
+              <td><%= link_to 'VER', form %></td>
+            </tr>
+            <% @cont += 1 %>
+          <% end %>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div> -->
+
+<div ng-view></div>

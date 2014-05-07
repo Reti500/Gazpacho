@@ -3,6 +3,7 @@ class CreateForms < ActiveRecord::Migration
     create_table :forms do |t|
       t.string :name
       t.integer :user_id
+      t.integer :project_id
 
       t.timestamps
     end

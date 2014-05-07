@@ -1,21 +1,37 @@
 <p id="notice"><%= notice %></p>
 
+<div class="row">
+  <div class="col-md-10 col-md-push-1">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <%= @form.name %>
+        <span class="pull-right"><%= link_to 'Nueva pregunta', new_question_path, class: "btn btn-success btn-xs" %><%= link_to 'Editar', edit_form_path(@form), class: 'btn btn-default btn-xs' %></span>
+      </div>
 
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Titulo</th>
+            <th>tipo</th>
+            <th>Acciones</the>
+          </tr>
+        </thead>
 
-  <tbody>
-      <tr>
-        <td><%= @form.name %></td>
-      </tr>
-  </tbody>
-</table>
+        <tbody>
+          <% @cont = 1 %>
+          <% @questions.each do |q| %>
+            <tr>
+              <td><%= @cont %></td>
+              <td><%= q.title %></td>
+              <td><%= q.qtype.name if q.qtype %></td>
+              <td><%= link_to 'Editar', edit_question_path(q), class: "btn btn-success" %></td>
+            </tr>
+            <% @cont += 1 %>
+          <% end %>
+        </tbody>
+      </table>
 
-<%= link_to 'Edit', edit_form_path(@form) %> |
-<%= link_to 'Back', forms_path %>
+    </div>
+  </div>
+</div>

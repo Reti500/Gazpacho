@@ -4,5 +4,5 @@ class User < ActiveRecord::Base
 
   has_many :projects
   has_many :forms
-  has_many :answers
+  has_many :information
 end

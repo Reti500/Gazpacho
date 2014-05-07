@@ -11,18 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140430222729) do
+ActiveRecord::Schema.define(version: 20140502173558) do
 
   create_table "answers", force: true do |t|
-    t.text     "answer"
-    t.integer  "form_id"
-    t.integer  "user_id"
+    t.string   "answer"
+    t.integer  "question_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "forms", force: true do |t|
     t.string   "name"
+    t.integer  "user_id"
+    t.integer  "project_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "information", force: true do |t|
+    t.text     "info"
+    t.integer  "question_id"
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -36,9 +44,15 @@ ActiveRecord::Schema.define(version: 20140430222729) do
     t.datetime "updated_at"
   end
 
+  create_table "qtypes", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "questions", force: true do |t|
     t.string   "title"
-    t.string   "tipe"
+    t.integer  "qtype_id"
     t.integer  "form_id"
     t.datetime "created_at"
     t.datetime "updated_at"
