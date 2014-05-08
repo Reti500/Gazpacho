@@ -42,7 +42,7 @@ class FormsController < ApplicationController
     
     respond_to do |format|
       if @form.save
-        format.html { redirect_to fomrs_path, notice: 'Form was successfully created.' }
+        format.html { redirect_to forms_path, notice: 'Form was successfully created.' }
         format.json { render json: { status: 'successfully' } }
       else
         format.html { render action: 'new' }
