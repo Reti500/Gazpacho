@@ -14,7 +14,6 @@
 
     <%= f.input :title, input_html: {class:'form-control'} %>
     <%= f.input :qtype_id, collection: Qtype.all, label_method: :name, input_html: {class:'form-control'} %>
-    <%= f.association :answers, as: :string, input_html: {class:'form-control'} %>
     <%= f.input :form_id, collection: current_user.forms, label_method: :name, input_html: {class:'form-control'} %>
 
     <p></p>

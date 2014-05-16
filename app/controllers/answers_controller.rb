@@ -16,7 +16,9 @@ class AnswersController < ApplicationController
 
   # GET /answers/new
   def new
+    @question = Question.find(params[:question_id])
     @answer = Answer.new
+    
   end
 
   # GET /answers/1/edit
@@ -30,6 +32,7 @@ class AnswersController < ApplicationController
 
     respond_to do |format|
       if @answer.save
+
         format.html { redirect_to @answer, notice: 'Answer was successfully created.' }
         format.json { render action: 'show', status: :created, location: @answer }
       else
@@ -71,6 +74,6 @@ class AnswersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def answer_params
-      params[:answer]
+      params.require(:answer).permit(:answer, :question_id)
     end
 end

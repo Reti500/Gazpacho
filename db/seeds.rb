@@ -10,3 +10,7 @@
 Qtype.create(name: 'Abierta')
 Qtype.create(name: 'Cerrada')
 Qtype.create(name: 'Imagen')
+
+['root', 'admin', 'manager', 'user'].each do |role|
+	Role.find_or_create_by(name: role)
+end

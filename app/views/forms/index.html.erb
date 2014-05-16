@@ -1,5 +1,9 @@
 <p></p>
 
+<% if can? :destroy, User %>
+  <p>Si puede</p>
+<% end %>
+
 <div class="row ">
   <div class="col-md-10 col-md-push-1">
     <div class="panel panel-primary">

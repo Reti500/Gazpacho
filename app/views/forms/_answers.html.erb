@@ -1,0 +1,9 @@
+
+<% @cont = 1 %>
+<% if params[:question] %>
+  <% params[:question].answers.each do |a| %>
+      <td><%= @cont %></td>
+      <td><%= a.answer %></td>
+    <% @cont += 1 %>
+  <% end %>
+<% end %>

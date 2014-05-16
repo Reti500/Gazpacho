@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20140502173558) do
   create_table "answers", force: true do |t|
     t.string   "answer"
     t.integer  "question_id"
+    t.string   "state"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -24,6 +25,7 @@ ActiveRecord::Schema.define(version: 20140502173558) do
     t.string   "name"
     t.integer  "user_id"
     t.integer  "project_id"
+    t.string   "state"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -32,6 +34,7 @@ ActiveRecord::Schema.define(version: 20140502173558) do
     t.text     "info"
     t.integer  "question_id"
     t.integer  "user_id"
+    t.string   "state"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -40,12 +43,14 @@ ActiveRecord::Schema.define(version: 20140502173558) do
     t.string   "name"
     t.string   "description"
     t.integer  "user_id"
+    t.string   "state"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "qtypes", force: true do |t|
     t.string   "name"
+    t.string   "state"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -54,6 +59,7 @@ ActiveRecord::Schema.define(version: 20140502173558) do
     t.string   "title"
     t.integer  "qtype_id"
     t.integer  "form_id"
+    t.string   "state"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -73,6 +79,7 @@ ActiveRecord::Schema.define(version: 20140502173558) do
     t.string   "email",                        null: false
     t.string   "crypted_password",             null: false
     t.string   "salt",                         null: false
+    t.string   "state",                        null: false
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "remember_me_token"

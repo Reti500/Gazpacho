@@ -4,6 +4,7 @@ class CreateQuestions < ActiveRecord::Migration
       t.string :title
       t.integer :qtype_id
       t.integer :form_id
+      t.string :state
 
       t.timestamps
     end

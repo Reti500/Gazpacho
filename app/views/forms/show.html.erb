@@ -8,7 +8,7 @@
         <span class="pull-right"><%= link_to 'Nueva pregunta', new_question_path, class: "btn btn-success btn-xs" %><%= link_to 'Editar', edit_form_path(@form), class: 'btn btn-default btn-xs' %></span>
       </div>
 
-      <table class="table">
+      <table class="table table-hover table-bordered">
         <thead>
           <tr>
             <th>#</th>
@@ -21,17 +21,60 @@
         <tbody>
           <% @cont = 1 %>
           <% @questions.each do |q| %>
-            <tr>
+            <tr data-toggle="collapse" data-target="<%= q.id %>" class="accordion-toggle" id="<%= q.id %>">
               <td><%= @cont %></td>
               <td><%= q.title %></td>
               <td><%= q.qtype.name if q.qtype %></td>
-              <td><%= link_to 'Editar', edit_question_path(q), class: "btn btn-success" %></td>
+              <td>
+                <%= link_to 'Editar', edit_question_path(q), class: "btn btn-success" %>
+                <% if q.qtype == Qtype.find_by(name: 'Cerrada') %>
+                  <%= link_to 'Nueva respuesta', new_answer_path(q), class: "btn btn-primary" %>
+                <% end %>
+              </td>
             </tr>
+
+            <% if q.answers.length > 0 %>
+              
+                <% @cont2 = 1 %>
+                  
+                <% q.answers.each do |a| %>
+                  <tr class="collapse out" id="row-<%= q.id %>">
+                    <td><%= @cont %></td>
+                    <td colspan="2"><%= a.answer %></td>
+                    <td></td>
+                    <% @cont2 += 1 %>
+                  </tr>
+                <% end %>
+              
+            <% end %>
             <% @cont += 1 %>
           <% end %>
         </tbody>
+
+        <tfoot>
+          <tr>
+            <th>#</th>
+            <th>Titulo</th>
+            <th>tipo</th>
+            <th>Acciones</the>
+          </tr>
+        </tfoot>
       </table>
 
     </div>
   </div>
 </div>
+
+<script>
+  var row = $('.accordion-toggle');
+  row.click(function(event) {
+    var id = "#row-" + this.id;
+    if($(id).hasClass("out")) {
+        $(id).addClass("in");
+        $(id).removeClass("out");
+    } else {
+        $(id).addClass("out");
+        $(id).removeClass("in");
+    }
+  });
+</script>
