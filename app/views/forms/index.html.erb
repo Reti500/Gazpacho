@@ -28,7 +28,14 @@
             <tr>
               <td><%= @cont %></td>
               <td><%= form.name %></td>
-              <td><%= link_to 'VER', form %></td>
+              <td>
+                <%= link_to 'VER', form, class:'btn btn-success btn-xs' %>
+                <% if form.state == "Activo" %>
+                  <%= link_to 'Desactivar', change_state_form_path(form, state:"Desactivo"), class:'btn btn-danger btn-xs' %>
+                <% else %>
+                  <%= link_to 'Activar', change_state_form_path(form, state:"Activo"), class:'btn btn-success btn-xs' %>
+                <% end %>
+              </td>
             </tr>
             <% @cont += 1 %>
           <% end %>
@@ -38,3 +45,6 @@
     </div>
   </div>
 </div>
+
+
+<div ng-view></div>

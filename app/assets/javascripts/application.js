@@ -14,3 +14,10 @@
 //= require jquery_ujs
 
 //= require bootstrap.min
+
+//= require angular.min
+//= require angular-route
+//= require angular-resource
+//= require main
+
+//= require_tree ./angular

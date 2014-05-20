@@ -6,9 +6,16 @@ Gazpacho::Application.routes.draw do
   get 'questions.:form_id' => 'questions#index'
   get 'answers/new.:question_id' => 'answers#new'
 
+  #Fomrs
+  
+
   resources :users
   resources :projects
-  resources :forms
+
+  resources :forms do
+    get 'change_state', on: :member
+  end
+
   resources :questions
   resources :answers
   resources :sessions

@@ -20,9 +20,9 @@
 # 	# console.log($scope.tasks)
 # ]
 
-@gazpacho.controller 'ProjectsCtrl', ($scope, Projects) ->
-	$scope.projects = Projects.get()
-	console.log($scope.projects.projects)
+# @gazpacho.controller 'ProjectsCtrl', ($scope, Projects) ->
+# 	$scope.projects = Projects.get()
+# 	console.log($scope.projects.projects)
 	# $scope.init = (projectListId) ->
 	# @service = new ProjectService(projectListId)
 	# $scope.projects = @service.all()

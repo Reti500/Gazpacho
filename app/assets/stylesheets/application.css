@@ -14,3 +14,12 @@
  
  *= require_tree .
  */
+
+
+.hola tr:nth-child(odd) td{
+	background-color: red;
+}
+
+.hola tr:nth-child(even) td{
+	background-color: blue;
+}

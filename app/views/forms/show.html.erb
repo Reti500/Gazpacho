@@ -32,21 +32,22 @@
                 <% end %>
               </td>
             </tr>
-
+            
             <% if q.answers.length > 0 %>
-              
+                <div class="hola">
                 <% @cont2 = 1 %>
                   
                 <% q.answers.each do |a| %>
-                  <tr class="collapse out" id="row-<%= q.id %>">
-                    <td><%= @cont %></td>
-                    <td colspan="2"><%= a.answer %></td>
+                  <tr class="collapse out" id="row-<%= q.id.to_s+"."+@cont2.to_s %>">
                     <td></td>
+                    <td><%= q.id.to_s+"."+@cont2.to_s %></td>
+                    <td colspan="2"><%= a.answer %></td>
                     <% @cont2 += 1 %>
                   </tr>
                 <% end %>
-              
+                </div>
             <% end %>
+            
             <% @cont += 1 %>
           <% end %>
         </tbody>
@@ -68,13 +69,19 @@
 <script>
   var row = $('.accordion-toggle');
   row.click(function(event) {
-    var id = "#row-" + this.id;
+    var id_name = "row-" + this.id;
+    var id = $("tr[id*='" + id_name + "']");
+
     if($(id).hasClass("out")) {
-        $(id).addClass("in");
-        $(id).removeClass("out");
+      $(id).each(function(){
+        $(this).addClass("in");
+        $(this).removeClass("out");
+      });
     } else {
-        $(id).addClass("out");
-        $(id).removeClass("in");
+      $(id).each(function(){
+        $(this).addClass("out");
+        $(this).removeClass("in");
+      });
     }
   });
 </script>

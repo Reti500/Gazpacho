@@ -1,6 +1,6 @@
 class FormsController < ApplicationController
   before_action :require_login
-  before_action :set_form, only: [:show, :edit, :update, :destroy]
+  before_action :set_form, only: [:show, :edit, :update, :destroy, :change_state]
 
   # GET /forms
   # GET /forms.json
@@ -63,6 +63,11 @@ class FormsController < ApplicationController
         format.json { render json: @form.errors, status: :unprocessable_entity }
       end
     end
+  end
+
+  def change_state
+    @form.state = params[:state]
+    render json: { state: (@form.save && 'OK') || 'ERROR' }
   end
 
   # DELETE /forms/1
