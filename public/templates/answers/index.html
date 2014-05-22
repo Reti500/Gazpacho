@@ -1,0 +1,35 @@
+<p></p>
+
+<div class="row ">
+  <div class="col-md-10 col-md-push-1">
+    <div class="panel panel-primary">
+
+      <div class="panel-heading">
+        Lista de Formularios
+      </div>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr ng-repeat="(key, answer) in answers.answers">
+			      <td>{{key + 1}}</td>
+			      <td>{{answer.answer}}</td>
+			      <td>
+			        <a class="btn btn-success btn-xs" href="#/forms/{{form.id}}">Show</a>
+			        <a class="btn btn-success btn-xs" href="#/contacts/{{contact.id}}/edit">Edit</a>
+			        <a class="btn btn-danger btn-xs" href="">Eliminar</a>
+			      </td>
+			    </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>

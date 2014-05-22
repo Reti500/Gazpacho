@@ -1,0 +1,80 @@
+<p></p>
+
+<div class="row ">
+  <div class="col-md-10 col-md-push-1">
+    <div class="panel panel-primary">
+
+      <div class="panel-heading">
+        Lista de Formularios
+      </div>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr ng-repeat="(key, form) in forms">
+			      <td>{{key + 1}}</td>
+			      <td>{{form.name}}</td>
+			      <td>
+			        <a class="btn btn-success btn-xs" href="#/forms/{{form.id}}">Show</a>
+			        <a class="btn btn-success btn-xs" href="#/contacts/{{contact.id}}/edit">Edit</a>
+			        <a class="btn btn-danger btn-xs" href="">Eliminar</a>
+			      </td>
+			    </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <form name="newForm" class="col-md-10 col-md-push-1 form-inline" role="form" novalidate ng-submit="new(newForm.$valid)">
+    <div class="form-group" ng-class="{ 'has-error' : newForm.name.$invalid && !newForm.name.$pristine }">
+      Nombre: <input type="text" name="name" ng-model="form.name" class="form-control" required/>
+    </div>
+
+    <div class="form-group" ng-class="{ 'has-error' : newForm.name.$invalid && !newForm.name.$pristine }">
+      Proyecto:
+      <select class="form-control" ng-model="form.project_id" required>
+        <option ng-repeat="project in projects" value="{{project.id}}">{{project.name}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-success" type="submit" ng-disabled="newForm.$invalid || isUnchanged(form)">Guradar</button>
+    </div>
+  </form>
+</div>
+
+<!-- 
+  <%= simple_form_for @form, html: { class: 'col-md-8 col-md-push-2', role: 'form'} do |f| %>
+    <% if @form.errors.any? %>
+      <div id="error_explanation">
+        <h2><%= pluralize(@form.errors.count, "error") %> prohibited this form from being saved:</h2>
+
+        <ul>
+        <% @form.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <%= f.input :name, input_html: {class:'form-control'} %>
+    <%= f.input :project_id, collection: current_user.projects, label_method: :name, input_html: {class:'form-control'} %>
+
+    <p></p>
+
+    <div class="actions">
+      <%= f.submit 'Guardar', class: 'btn btn-success' %>
+    </div>
+  <% end %>
+
+</div> -->

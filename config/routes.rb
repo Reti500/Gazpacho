@@ -7,18 +7,17 @@ Gazpacho::Application.routes.draw do
   get 'answers/new.:question_id' => 'answers#new'
 
   #Fomrs
-  
-
   resources :users
-  resources :projects
-
-  resources :forms do
-    get 'change_state', on: :member
-  end
-
-  resources :questions
-  resources :answers
   resources :sessions
+
+  scope "api", defaults: { format: :json } do
+    resources :forms
+    resources :answers
+    resources :users
+    resources :projects
+    resources :questions
+    resources :sessions
+  end
 
   root 'forms#index'
 

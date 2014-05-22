@@ -7,11 +7,20 @@ class AnswersController < ApplicationController
   # GET /answers.json
   def index
     @answers = Answer.all
+
+    respond_to do |format|
+      format.html {}
+      format.json { render json: @answers }
+    end
   end
 
   # GET /answers/1
   # GET /answers/1.json
   def show
+    respond_to do |format|
+      format.html {}
+      format.json { render json: @answer }
+    end
   end
 
   # GET /answers/new

@@ -20,7 +20,7 @@ class FormsController < ApplicationController
 
     respond_to do |format|
       format.html {}
-      format.json {render json: @form.questions}
+      format.json {render json: @form}
     end
   end
 

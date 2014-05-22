@@ -1,0 +1,51 @@
+<p></p>
+
+<div class="row ">
+	<div class="col-md-10 col-md-push-1">
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">
+				{{form.form.name}}
+				<span class="pull-right">
+					<button class="btn btn-success btn-xs">Editar</button>
+					<button class="btn btn-danger btn-xs">Desactivar</button>
+				</span>
+			</div>
+
+			<table class="table table-hover table-bordered">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Titulo</th>
+            <th>tipo</th>
+            <th>Acciones</the>
+          </tr>
+        </thead>
+
+        <tbody>
+        	<tr ng-repeat="(key, preg) in form.form.preguntas">
+				<td>{{key + 1}}</td>
+				<td>{{preg.title}}</td>
+				<td ng-switch="preg.qtype_id">
+					<div ng-switch-when="1">Abiarta</div>
+					<div ng-switch-when="2">Cerrada</div>
+				</td>
+				<td>
+					<a class="btn btn-success btn-xs" href="#/forms/{{form.form.id}}/edit">Edit</a>
+					<a class="btn btn-danger btn-xs" href="">Eliminar</a>
+				</td>
+			</tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <th>#</th>
+            <th>Titulo</th>
+            <th>tipo</th>
+            <th>Acciones</the>
+          </tr>
+        </tfoot>
+      </table>
+		</div>
+	</div>
+</div>

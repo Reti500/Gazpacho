@@ -1,5 +1,5 @@
-@app.factory("Form", ['$resource', ($resource) -> 
-	return $resource('./api/forms/:id', { id: "@id" },
+@app.factory("Project", ['$resource', ($resource) -> 
+	return $resource('./api/projects/:id', { id: "@id" },
 		{
 			'create':  { method: 'POST' },
 			'index':   { method: 'GET', isArray: false}
