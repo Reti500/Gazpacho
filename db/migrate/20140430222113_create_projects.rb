@@ -4,7 +4,7 @@ class CreateProjects < ActiveRecord::Migration
       t.string :name
       t.string :description
       t.integer :user_id
-      t.string :state
+      t.string :state,			default: "Activo"
 
       t.timestamps
     end

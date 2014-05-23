@@ -4,7 +4,7 @@ class CreateInformation < ActiveRecord::Migration
       t.text :info
       t.integer :question_id
       t.integer :user_id
-      t.string :state
+      t.string :state,				default: "Activo"
 
       t.timestamps
     end
