@@ -1,30 +1,51 @@
-# @gazpacho.controller 'ProjectsCtrl', ['$scope', '$location', '$http', ($scope, $location, $http) ->
-# 	$scope.projects = []
+@app.controller 'ProjectsCtrl', ['$scope', '$location', 'Project', ($scope, $location, Project) ->
 
-# 	$http.get('./projects.json').success((data) ->
-# 		$scope.projects = data.projects
-# 	)
+	$scope.viewAllProjects = true
+	$scope.viewSingleProject = false
+	$scope.idProject = -1
 
-# 	$scope.save = (project) ->
-# 		$http.post('./projects.json').success((data) ->
-# 			alert(data.status)
-# 		)
-# ]
+	$scope.index = () ->
+		Project.index({}, ($data) ->
+			$scope.projects = $data.projects
+		)
 
-# @gazpacho.controller 'ProjectsCtrl', ['$scope', '$routeParams', 'Projects', ($scope, $routeParams, Projects) ->
-# 	$scope.p = Projects.get()
+	$scope.show = ($id) ->
+		Project.show({ id: $id }, ($data) ->
+			$scope.project = $data.project
+			$scope.verSingle($id)
+		)
 
-# 	alert($scope.p)
-# 	console.log($scope.p)
-# 	# $scope.tasks = Task(taskListId).all()
-# 	# console.log($scope.tasks)
-# ]
+	# $scope.new = ($routeParams) ->
+	# 	console.log($routeParams)
+	# 	if $routeParams.id
+	# 		$scope.update = Project.show({ id: $routeParams.id })
+	# 		Project.update($scope.update, ($data) ->
+	# 			if($data.status == "Guardado")
+	# 				$scope.project = angular.copy({})
+	# 				$scope.index()
+	# 		)
+	# 	else
+	# 		$scope.project = new Project($routeParams)
+	# 		Project.create($scope.project, ($data) ->
+	# 			if($data.status == "Guardado")
+	# 				$scope.project = angular.copy({})
+	# 				$scope.index()
+	# 			)
 
-# @gazpacho.controller 'ProjectsCtrl', ($scope, Projects) ->
-# 	$scope.projects = Projects.get()
-# 	console.log($scope.projects.projects)
-	# $scope.init = (projectListId) ->
-	# @service = new ProjectService(projectListId)
-	# $scope.projects = @service.all()
+		
 
-	# $scope.projects
+	$scope.destroy = ($id) ->
+		Project.destroy({ id: $id }, ($data) ->
+			$scope.index()
+		)
+
+	$scope.verAll = () ->
+		$scope.viewAllProjects = true
+		$scope.viewSingleProject = false
+		$scope.project = angular.copy({})
+
+	$scope.verSingle = ($id) ->
+		$scope.viewAllProjects = false
+		$scope.viewSingleProject = true
+		$scope.idProject = $id
+]

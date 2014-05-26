@@ -15,11 +15,37 @@
  *= require_tree .
  */
 
-
-.hola tr:nth-child(odd) td{
-	background-color: red;
+.ng-hide {
+  display:block!important;
+  
+  position:absolute;
+  top:-9999px;
+  left:-9999px;
 }
 
-.hola tr:nth-child(even) td{
-	background-color: blue;
+.animate-hide {
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+  line-height:20px;
+  opacity:1;
+  padding:10px;
+  /*border:1px solid black;*/
+  background:white;
+}
+
+.animate-hide.ng-hide-add,
+.animate-hide.ng-hide-remove {
+  display:block!important;
+}
+
+.animate-hide.ng-hide {
+  line-height:0;
+  opacity:0;
+  padding:0 10px;
+}
+
+.check-element {
+  padding:10px;
+  border:1px solid black;
+  background:white;
 }

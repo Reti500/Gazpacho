@@ -1,11 +1,13 @@
 <p ng-init="index()"></p>
 
-<div class="row ">
+<div class="row">
   <div class="col-md-10 col-md-push-1">
     <div class="panel panel-primary">
 
       <div class="panel-heading">
         Lista de Proyectos
+        <span class="pull-right ng-hide" ng-hide="viewAllProjects">
+          <button class="btn btn-success btn-xs" ng-click="verAll()">VER TODO</button></span>
       </div>
 
       <table class="table">
@@ -19,16 +21,26 @@
         </thead>
 
         <tbody>
-          <tr ng-repeat="project in projects">
+          <tr class="ng-hide" ng-repeat="(key, project) in projects" ng-hide="!viewAllProjects">
 			      <td>{{key + 1}}</td>
 			      <td>{{project.name}}</td>
             <td>{{project.description}}</td>
 			      <td>
-			        <a class="btn btn-success btn-xs" href="#/forms/{{form.id}}">Show</a>
-			        <a class="btn btn-success btn-xs" href="#/contacts/{{contact.id}}/edit">Edit</a>
-			        <a class="btn btn-danger btn-xs" href="">Eliminar</a>
+			        <button class="btn btn-success btn-xs" ng-click="show(project.id)">Detalles</button>
+			        <button class="btn btn-success btn-xs" ng-click="edit(project.id)">Editar</button>
+			        <button class="btn btn-danger btn-xs" ng-click="destroy(project.id)">Eliminar</button>
 			      </td>
 			    </tr>
+
+          <tr class="ng-hide" ng-hide="viewAllProjects">
+            <td>{{project.id}}</td>
+            <td>{{project.name}}</td>
+            <td>{{project.description}}</td>
+            <td>
+              <button class="btn btn-success btn-xs" ng-click="edit(project.id)">Editar</button>
+              <button class="btn btn-danger btn-xs" ng-click="destroy(project.id)">Eliminar</button>
+            </td>
+          </tr>
         </tbody>
       </table>
 
@@ -37,17 +49,17 @@
 </div>
 
 <div class="row">
-  <form name="projectForm" class="col-md-10 col-md-push-1 form-inline" role="form" novalidate ng-submit="new()">
-    <div class="form-group" ng-class="{ 'has-error' : projectForm.name.$invalid && !projectForm.name.$pristine }">
-      Nombre: <input type="text" name="name" ng-model="projectForm.name" class="form-control" required/>
+  <form name="form" class="col-md-10 col-md-push-1 form-inline" role="form" ng-submit="submit()" novalidate>
+    <div class="form-group" ng-class="{ 'has-error' : form.name.$invalid && !form.name.$pristine }">
+      Nombre: <input type="text" name="name" ng-model="project.name" class="form-control" required/>
     </div>
 
-    <div class="form-group" ng-class="{ 'has-error' : projectForm.description.$invalid && !projectForm.description.$pristine }">
-      Descripcion: <input type="text" name="description" ng-model="projectForm.description" class="form-control" required/>
+    <div class="form-group" ng-class="{ 'has-error' : form.description.$invalid && !form.description.$pristine }">
+      Descripcion: <input type="text" name="description" ng-model="project.description" class="form-control" required/>
     </div>
 
     <div class="form-group">
-      <button class="btn btn-success" type="submit" ng-disabled="projectForm.$invalid || isUnchanged(projectForm)">Guardar</button>
+      <button class="btn btn-success" type="submit" ng-disabled="form.$invalid || isUnchanged(form)">Guardar</button>
     </div>
   </form>
 </div>

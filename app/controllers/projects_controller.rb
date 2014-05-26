@@ -17,6 +17,10 @@ class ProjectsController < ApplicationController
   # GET /projects/1
   # GET /projects/1.json
   def show
+    respond_to do |format|
+      format.html {}
+      format.json { render json: @project }
+    end
   end
 
   # GET /projects/new

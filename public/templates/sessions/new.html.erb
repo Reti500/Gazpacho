@@ -1,0 +1,16 @@
+<div class="row">
+  <form name="newSession" class="col-md-10 col-md-push-1 form-inline" role="form"  ng-submit="submit()" novalidate>
+    <div class="form-group" ng-class="{ 'has-error' : newSession.email.$invalid && !newSession.email.$pristine }">
+      Email: <input type="text" name="email" ng-model="session.email" class="form-control" required />
+    </div>
+
+    <div class="form-group" ng-class="{ 'has-error' : newSession.password.$invalid && !newSession.password.$pristine }">
+      Contraseña:
+      <input type="password" name="password" ng-model="session.password" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-success" type="submit" ng-disabled="newSession.$invalid || isUnchanged(form)">Guradar</button>
+    </div>
+  </form>
+</div>
