@@ -1,6 +1,7 @@
-@app = angular.module("App", ["ngResource", "ngRoute"])
+@app = angular.module("App", ["ngResource", "ngRoute", "ui.bootstrap"])
 
-@app.config(['$routeProvider', ($routeProvider) ->
+@app.config(['$routeProvider', '$locationProvider', ($routeProvider, $locationProvider) ->
+	$locationProvider.html5Mode(true)
 	$routeProvider
 		.when('/home', {templateUrl: '../templates/home.html', controller: 'HomeCtrl'})
 		.when('/forms', {templateUrl: '../templates/forms/index.html', controller: 'FormsCtrl'})

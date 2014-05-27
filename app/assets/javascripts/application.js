@@ -18,6 +18,10 @@
 //= require angular.min
 //= require angular-route
 //= require angular-resource
+
 //= require main
+//= require ui-bootstrap-tpls-0.11.0
+
+
 
 //= require_tree ./angular

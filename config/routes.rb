@@ -1,5 +1,6 @@
 Gazpacho::Application.routes.draw do
 
+  get "home/index"
   get 'login' => 'sessions#new', as: :login
   get 'logout' => 'sessions#destroy', as: :logout
   get 'signup' => 'users#new', as: :signup
@@ -7,8 +8,8 @@ Gazpacho::Application.routes.draw do
   get 'answers/new.:question_id' => 'answers#new'
 
   #Fomrs
-  resources :users
-  resources :sessions
+  # resources :users
+  # resources :sessions
 
   scope "api", defaults: { format: :json } do
     resources :forms
@@ -19,7 +20,9 @@ Gazpacho::Application.routes.draw do
     resources :sessions
   end
 
-  root 'forms#index'
+  root 'home#index'
+
+  get "/*path" => redirect("/#%{path}")
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
