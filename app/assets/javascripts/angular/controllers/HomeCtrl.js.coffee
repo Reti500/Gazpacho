@@ -8,14 +8,14 @@
 	$scope.items = []
 	$scope.message = "Angular!"
 
-	$scope.open = () ->
-		$modal.open({
-	      templateUrl: '../templates/projects.html',
-	      controller: 'HomeCtrl',
-	      size: "",
-	      resolve: {
-	        items: () ->
-	          return $scope.items;
-	      }
-	    })
+	# $scope.open = () ->
+	# 	$modal.open({
+	#       templateUrl: '../templates/projects.html',
+	#       controller: 'HomeCtrl',
+	#       size: "",
+	#       resolve: {
+	#         items: () ->
+	#           return $scope.items;
+	#       }
+	#     })
 ]
