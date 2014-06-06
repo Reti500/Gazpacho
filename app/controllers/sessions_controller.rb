@@ -21,4 +21,9 @@ class SessionsController < ApplicationController
   	logout
   	redirect_to root_url, :notice => "Logged out!"
   end
+
+  def verify_session
+    @state = (current_user && 'activo') || 'no activo'
+    render json: { state: @state }
+  end
 end

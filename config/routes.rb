@@ -17,12 +17,14 @@ Gazpacho::Application.routes.draw do
     resources :users
     resources :projects
     resources :questions
-    resources :sessions
+    resources :sessions do
+      get 'verify_session', :member
+    end
   end
 
   root 'home#index'
 
-  get "/*path" => redirect("/#%{path}")
+  # get "/*path" => redirect("/#%{path}")
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

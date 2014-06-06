@@ -1,8 +1,9 @@
 @app.controller 'ProjectsCtrl', 
-	['$scope', '$location', '$log', 'Project', ($scope, $location, $log, Project) ->
+	['$scope', '$location', '$log', 'Project', 'Session', ($scope, $location, $log, Project, Session) ->
 
 		$scope.viewAllProjects = true
 		$scope.viewSingleProject = false
+		$scope.isSessionActive = Session.logged
 
 		$scope.index = () ->
 			Project.index({}, ($data) ->

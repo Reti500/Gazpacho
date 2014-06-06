@@ -1,5 +1,6 @@
 @app.controller 'AuthServiceCtrl', 
-	['$scope', '$rootScope', '$location', '$log', 'AUTH_EVENTS', 'AuthService', ($scope, $rootScope, $location, $log, AUTH_EVENTS, AuthService) -> 
+	['$scope', '$rootScope', '$location', '$log', 'AUTH_EVENTS', 'AuthService', 'Session', 
+	($scope, $rootScope, $location, $log, AUTH_EVENTS, AuthService, Session) -> 
 	
 		$scope.alerts = []
 
@@ -15,6 +16,7 @@
 					if $data.state == "Logged"
 						$location.path("/projects")
 						$rootScope.$broadcast(AUTH_EVENTS.loginSuccess)
+						Session.create()
 					else
 						$scope.addAlert("danger", "Error en los datos")
 						$scope.session = angular.copy({})
