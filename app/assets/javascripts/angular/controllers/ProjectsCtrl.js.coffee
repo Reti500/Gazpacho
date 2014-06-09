@@ -9,13 +9,16 @@
 				$scope.projects = $data.projects
 			)
 
+		$scope.detalles = () ->
+			$loction.path("/#/project/" + project.id)
+			
 		$scope.show = ($project) ->
 			console.log("show")
-			$loction.path("/#/project/" + project.id)
-			# Project.show({ id: $id }, ($data) ->
-			# 	$scope.project = $data.project
-			# 	$scope.verSingle($id)
-			# )
+
+			Project.show({ id: $id }, ($data) ->
+				$scope.project = $data.project
+				$scope.verSingle($id)
+			)
 
 		$scope.nuevo = ($params) ->
 			$log.info($params)

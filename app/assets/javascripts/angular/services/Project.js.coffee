@@ -1,4 +1,4 @@
-@app.factory("Project", ['$resource', ($resource) -> 
+@app.factory("Project", ['$resource', ($resource) ->
 	return $resource('./api/projects/:id', { id: "@id" },
 		{
 			'create':  { method: 'POST' },
