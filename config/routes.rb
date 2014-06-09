@@ -1,11 +1,14 @@
 Gazpacho::Application.routes.draw do
 
-  get "home/index"
-  get 'login' => 'sessions#new', as: :login
-  get 'logout' => 'sessions#destroy', as: :logout
-  get 'signup' => 'users#new', as: :signup
-  get 'questions.:form_id' => 'questions#index'
-  get 'answers/new.:question_id' => 'answers#new'
+  # get "home/index"
+  # get 'login' => 'sessions#new', as: :login
+  # get 'logout' => 'sessions#destroy', as: :logout
+  # get 'signup' => 'users#new', as: :signup
+  # get 'questions.:form_id' => 'questions#index'
+  # get 'answers/new.:question_id' => 'answers#new'
+
+  get 'forms' => redirect('/#/forms'), as: :forms
+  get 'projects' => redirect('/#/projects'), as: :projects
 
   #Fomrs
   # resources :users

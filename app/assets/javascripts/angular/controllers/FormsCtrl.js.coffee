@@ -11,5 +11,5 @@
 	$scope.new = ($routeParams, $isValid) ->
 		if $isValid
 			alert($routeParams)
-
+	console.log("aef")
 ]

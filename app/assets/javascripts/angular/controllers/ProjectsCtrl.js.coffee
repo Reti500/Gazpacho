@@ -1,28 +1,28 @@
 @app.controller 'ProjectsCtrl', 
-	['$scope', '$location', '$log', 'Project', 'Session', ($scope, $location, $log, Project, Session) ->
+	['$scope', '$location', '$log', 'Project', ($scope, $location, $log, Project) ->
 
 		$scope.viewAllProjects = true
 		$scope.viewSingleProject = false
-		$scope.isSessionActive = Session.logged
 
 		$scope.index = () ->
 			Project.index({}, ($data) ->
 				$scope.projects = $data.projects
 			)
 
-		$scope.show = ($id) ->
+		$scope.show = ($project) ->
 			console.log("show")
-			Project.show({ id: $id }, ($data) ->
-				$scope.project = $data.project
-				$scope.verSingle($id)
-			)
+			$loction.path("/#/project/" + project.id)
+			# Project.show({ id: $id }, ($data) ->
+			# 	$scope.project = $data.project
+			# 	$scope.verSingle($id)
+			# )
 
 		$scope.nuevo = ($params) ->
 			$log.info($params)
 			$scope.project = new Project($params)
 			Project.create($scope.project, ($data) ->
 				if $data.status == "Guardado"
-					$scope.project = angular.copy({})
+					$scope.params = angular.copy({})
 					$scope.index()
 			)
 
