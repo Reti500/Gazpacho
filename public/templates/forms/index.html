@@ -13,6 +13,7 @@
           <tr>
             <th>#</th>
             <th>Nombre</th>
+            <th>Proyecto</th>
             <th>Acciones</th>
           </tr>
         </thead>
@@ -21,10 +22,9 @@
           <tr ng-repeat="(key, form) in forms">
 			      <td>{{key + 1}}</td>
 			      <td>{{form.name}}</td>
+            <td>{{form.project.name}}</td>
 			      <td>
-			        <a class="btn btn-success btn-xs" href="#/forms/{{form.id}}">Show</a>
-			        <a class="btn btn-success btn-xs" href="#/contacts/{{contact.id}}/edit">Edit</a>
-			        <a class="btn btn-danger btn-xs" href="">Eliminar</a>
+			        <a class="btn btn-success btn-xs" href="#/forms/{{form.id}}">Detalles</a>
 			      </td>
 			    </tr>
         </tbody>

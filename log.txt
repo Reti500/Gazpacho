@@ -21,8 +21,7 @@
 2014-06-10T17:43:54.924335+00:00 app[web.1]: Listening on 0.0.0.0:45728, CTRL+C to stop
 2014-06-10T17:43:54.924340+00:00 app[web.1]: I, [2014-06-10T17:43:54.459846 #2]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.5ms)
 2014-06-10T17:43:54.924342+00:00 app[web.1]: I, [2014-06-10T17:43:54.475050 #2]  INFO -- : Completed 200 OK in 46ms (Views: 17.7ms | ActiveRecord: 0.0ms)
-2014-06-10T17:43:54.924337+00:00 app[web.1]: I, [2014-06-10T17:43:54.3350
-81 #2]  INFO -- : Started GET "/" for 201.103.160.123 at 2014-06-10 17:43:54 +0000
+2014-06-10T17:43:54.924337+00:00 app[web.1]: I, [2014-06-10T17:43:54.335081 #2]  INFO -- : Started GET "/" for 201.103.160.123 at 2014-06-10 17:43:54 +0000
 2014-06-10T17:43:54.924339+00:00 app[web.1]: I, [2014-06-10T17:43:54.428476 #2]  INFO -- : Processing by HomeController#index as HTML
 2014-06-10T17:43:54.924320+00:00 app[web.1]: => Booting Thin
 2014-06-10T17:43:54.924326+00:00 app[web.1]: => Rails 4.0.2 application starting in production on http://0.0.0.0:45728
@@ -44,8 +43,7 @@
 2014-06-10T17:43:54.924394+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
 2014-06-10T17:43:54.924351+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
 2014-06-10T17:43:54.924352+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
-2014-06-10T17:43:54.924332+00:00 app[web.1]: Thin web server (v1.6.2 codename Do
-c Brown)
+2014-06-10T17:43:54.924332+00:00 app[web.1]: Thin web server (v1.6.2 codename Doc Brown)
 2014-06-10T17:43:54.924334+00:00 app[web.1]: Maximum connections set to 1024
 2014-06-10T17:43:54.924349+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
 2014-06-10T17:43:54.924401+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
@@ -66,8 +64,7 @@ c Brown)
 2014-06-10T17:43:54.924411+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
 2014-06-10T17:43:54.924416+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
 2014-06-10T17:43:54.924417+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
-2014-06-10T17:43:54.92442
-3+00:00 app[web.1]: 
+2014-06-10T17:43:54.924423+00:00 app[web.1]: 
 2014-06-10T17:43:54.924420+00:00 app[web.1]:   bin/rails:4:in `<main>'
 2014-06-10T17:43:54.924422+00:00 app[web.1]: 
 2014-06-10T17:43:54.924433+00:00 app[web.1]: F, [2014-06-10T17:43:54.731319 #2] FATAL -- : 
@@ -126,8 +123,7 @@ c Brown)
 2014-06-10T17:43:54.924559+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
 2014-06-10T17:43:54.924565+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
 2014-06-10T17:43:54.924570+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
-2014-06-10T17:43:54.924566+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.
-rb:84:in `start'
+2014-06-10T17:43:54.924566+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
 2014-06-10T17:43:54.924507+00:00 app[web.1]:   bin/rails:4:in `<main>'
 2014-06-10T17:43:54.924514+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
 2014-06-10T17:43:54.924523+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
@@ -140,8 +136,7 @@ rb:84:in `start'
 2014-06-10T17:43:54.924560+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
 2014-06-10T17:43:54.924573+00:00 app[web.1]:   bin/rails:4:in `<main>'
 2014-06-10T17:43:54.924545+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
-2014-06-10T17:43:54.924556+00:00 app[web.1]:   vendo
-r/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T17:43:54.924556+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
 2014-06-10T17:43:54.924561+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
 2014-06-10T17:43:54.924569+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
 2014-06-10T17:43:54.924576+00:00 app[web.1]: 
@@ -150,8 +145,7 @@ r/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
 2014-06-10T17:43:54.924571+00:00 app[web.1]:   bin/rails:4:in `require'
 2014-06-10T17:44:06.471208+00:00 heroku[router]: at=info method=GET path=/projects host=gentle-temple-7248.herokuapp.com request_id=9f4eab38-b1f5-4d60-a02a-0085d455ed96 fwd="201.103.160.123" dyno=web.1 connect=20ms service=40ms status=301 bytes=414
 2014-06-10T17:44:06.638958+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=d13c3cfc-2053-42e2-80fc-891169f442c0 fwd="201.103.160.123" dyno=web.1 connect=4ms service=8ms status=304 bytes=762
-2014-06-10T17:44:06.844197+00:00 heroku[router]: at=info method=GET path=/assets/application-22c31844cff8b588f993053e7c761f7c.css host=gentle-temple-7248.herokuapp.com request_id=3438eb68-c9a8-4911-971c-6f6d217eccb2 fwd="201.103.160.123" dyno=web.1 connect=1ms s
-ervice=7ms status=404 bytes=1570
+2014-06-10T17:44:06.844197+00:00 heroku[router]: at=info method=GET path=/assets/application-22c31844cff8b588f993053e7c761f7c.css host=gentle-temple-7248.herokuapp.com request_id=3438eb68-c9a8-4911-971c-6f6d217eccb2 fwd="201.103.160.123" dyno=web.1 connect=1ms service=7ms status=404 bytes=1570
 2014-06-10T17:44:06.970960+00:00 heroku[router]: at=info method=GET path=/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js host=gentle-temple-7248.herokuapp.com request_id=893ace89-8dd2-49bb-8b15-ed23a69d27b0 fwd="201.103.160.123" dyno=web.1 connect=1ms service=8ms status=404 bytes=1570
 2014-06-10T17:44:09.079044+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=2e7a683a-59d0-488d-9a49-3aa9b706cbc2 fwd="201.103.160.123" dyno=web.1 connect=3ms service=13ms status=304 bytes=762
 2014-06-10T17:44:08.916287+00:00 heroku[router]: at=info method=GET path=/forms host=gentle-temple-7248.herokuapp.com request_id=57d5c606-2024-4620-ab12-6f54c59ceaeb fwd="201.103.160.123" dyno=web.1 connect=1ms service=6ms status=301 bytes=408
@@ -219,8 +213,7 @@ ervice=7ms status=404 bytes=1570
 2014-06-10T17:44:09.266825+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
 2014-06-10T17:44:09.266863+00:00 app[web.1]: I, [2014-06-10T17:44:06.965431 #2]  INFO -- : Started GET "/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js" for 201.103.160.123 at 2014-06-10 17:44:06 +0000
 2014-06-10T17:44:09.266917+00:00 app[web.1]:   bin/rails:4:in `require'
-2014-06-10T17:44:09.266989+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/a
-ctivesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T17:44:09.266989+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
 2014-06-10T17:44:09.266992+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
 2014-06-10T17:44:09.267008+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
 2014-06-10T17:44:09.267009+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
@@ -261,8 +254,7 @@ ctivesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
 2014-06-10T17:44:09.267026+00:00 app[web.1]: 
 2014-06-10T17:44:09.266774+00:00 app[web.1]: I, [2014-06-10T17:44:06.632914 #2]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
 2014-06-10T17:44:09.266784+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
-2014-06-10T17:44:09.266801+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/
-lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T17:44:09.266801+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
 2014-06-10T17:44:09.266816+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
 2014-06-10T17:44:09.266824+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
 2014-06-10T17:44:09.266848+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
@@ -273,8 +265,7 @@ lib/action_dispatch/middleware/request_id.rb:21:in `call'
 2014-06-10T17:44:09.266896+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
 2014-06-10T17:44:09.266903+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
 2014-06-10T17:44:09.266908+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
-2014-06-10T17:44:09.266913+00:00 app[web.1]:   vend
-or/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T17:44:09.266913+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
 2014-06-10T17:44:09.266920+00:00 app[web.1]: 
 2014-06-10T17:44:09.266969+00:00 app[web.1]: F, [2014-06-10T17:44:09.266596 #2] FATAL -- : 
 2014-06-10T17:44:09.266976+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
@@ -355,8 +346,7 @@ or/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <
 2014-06-10T17:44:11.005265+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
 2014-06-10T17:44:11.005282+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
 2014-06-10T17:44:11.005298+00:00 app[web.1]: 
-2014-06-10T17:44:11.005307+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exception
-s.rb:30:in `call'
+2014-06-10T17:44:11.005307+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
 2014-06-10T17:44:11.005280+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
 2014-06-10T17:44:11.005299+00:00 app[web.1]: 
 2014-06-10T17:44:11.005301+00:00 app[web.1]: I, [2014-06-10T17:44:11.000356 #2]  INFO -- : Started GET "/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js" for 201.103.160.123 at 2014-06-10 17:44:11 +0000
@@ -367,8 +357,7 @@ s.rb:30:in `call'
 2014-06-10T17:44:11.005283+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
 2014-06-10T17:44:11.005309+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
 2014-06-10T17:44:11.005324+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
-2014-06-10T17:44:11.005340+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.
-2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T17:44:11.005340+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
 2014-06-10T17:44:11.005302+00:00 app[web.1]: F, [2014-06-10T17:44:11.004876 #2] FATAL -- : 
 2014-06-10T17:44:11.005313+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
 2014-06-10T17:44:11.005256+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
@@ -380,8 +369,7 @@ s.rb:30:in `call'
 2014-06-10T17:44:11.005259+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
 2014-06-10T17:44:11.005267+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
 2014-06-10T17:44:11.005325+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
-2014-06-10T17
-:44:11.005338+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T17:44:11.005338+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
 2014-06-10T17:44:11.005341+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
 2014-06-10T17:44:11.005368+00:00 app[web.1]:   bin/rails:4:in `require'
 2014-06-10T17:44:11.005279+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
@@ -478,8 +466,7 @@ s.rb:30:in `call'
 2014-06-10T17:47:19.576933+00:00 app[web.1]: Started GET "/forms" for 201.153.109.178 at 2014-06-10 17:47:19 +0000
 2014-06-10T17:47:19.755248+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:19 +0000
 2014-06-10T17:47:19.755237+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:19 +0000
-2014-06-10T17:47:19.576971+00:00 app[web.1]: 
-Started GET "/forms" for 201.153.109.178 at 2014-06-10 17:47:19 +0000
+2014-06-10T17:47:19.576971+00:00 app[web.1]: Started GET "/forms" for 201.153.109.178 at 2014-06-10 17:47:19 +0000
 2014-06-10T17:47:19.756041+00:00 app[web.1]: Processing by HomeController#index as HTML
 2014-06-10T17:47:19.756522+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.0ms)
 2014-06-10T17:47:19.756529+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.0ms)
@@ -544,8 +531,7 @@ Started GET "/forms" for 201.153.109.178 at 2014-06-10 17:47:19 +0000
 2014-06-10T17:51:42.676942+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
 2014-06-10T17:51:42.675140+00:00 app[web.1]: Processing by HomeController#index as HTML
 2014-06-10T17:51:42.676935+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
-2014-06-10T17:51:44.082851+00:00 heroku[ro
-uter]: at=info method=GET path=/favicon.ico host=geosforms.herokuapp.com request_id=0c4c0f01-f0d5-45f7-97cc-65cc3f89ce56 fwd="201.103.160.123" dyno=web.1 connect=1ms service=2ms status=200 bytes=182
+2014-06-10T17:51:44.082851+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=geosforms.herokuapp.com request_id=0c4c0f01-f0d5-45f7-97cc-65cc3f89ce56 fwd="201.103.160.123" dyno=web.1 connect=1ms service=2ms status=200 bytes=182
 2014-06-10T18:25:50.957703+00:00 heroku[router]: at=info method=GET path=/ host=geosforms.herokuapp.com request_id=234552fd-8f24-4c41-b826-d49f257c278e fwd="201.103.160.123" dyno=web.1 connect=1ms service=9ms status=200 bytes=2252
 2014-06-10T18:25:51.134597+00:00 heroku[router]: at=info method=GET path=/assets/application-22c31844cff8b588f993053e7c761f7c.css host=geosforms.herokuapp.com request_id=e781de3e-9fe8-4e0d-92a3-24bd7ab03877 fwd="201.103.160.123" dyno=web.1 connect=3ms service=12ms status=200 bytes=100825
 2014-06-10T18:25:50.944046+00:00 app[web.1]: Started GET "/" for 201.103.160.123 at 2014-06-10 18:25:50 +0000
@@ -726,8 +712,7 @@ uter]: at=info method=GET path=/favicon.ico host=geosforms.herokuapp.com request
 2014-06-10T18:30:00.247656+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
 2014-06-10T18:30:00.247644+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
 2014-06-10T18:30:00.247646+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
-2014-06-10T18:30:00.2
-47618+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T18:30:00.247618+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
 2014-06-10T18:30:00.247659+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
 2014-06-10T18:30:00.247668+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
 2014-06-10T18:30:00.247647+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
@@ -1008,7 +993,8 @@ uter]: at=info method=GET path=/favicon.ico host=geosforms.herokuapp.com request
 2014-06-10T18:36:50.868157+00:00 app[web.1]:   bin/rails:4:in `require'
 2014-06-10T18:36:50.868120+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
 2014-06-10T18:36:50.868058+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
-2014-06-10T18:36:50.868059+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+2014-06-10T18:36:50.868059+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/inst
+rumentation.rb:30:in `process_action'
 2014-06-10T18:36:50.868061+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
 2014-06-10T18:36:50.868062+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
 2014-06-10T18:36:50.868063+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
@@ -1138,3 +1124,125 @@ uter]: at=info method=GET path=/favicon.ico host=geosforms.herokuapp.com request
 2014-06-10T18:36:50.868263+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
 2014-06-10T18:36:50.868275+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
 2014-06-10T18:36:50.868265+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T18:42:29+00:00 heroku[slug-compiler]: Slug compilation started
+2014-06-10T18:43:17+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-06-10T18:43:17.305189+00:00 heroku[web.1]: State changed from up to starting
+2014-06-10T18:43:16.885136+00:00 heroku[api]: Deploy b0a4d5a by chaneque500@gmail.com
+2014-06-10T18:43:16.885248+00:00 heroku[api]: Release v8 created by chaneque500@gmail.com
+2014-06-10T18:43:21.539458+00:00 app[web.1]: Exiting
+2014-06-10T18:43:20.452103+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 55565 -e production`
+2014-06-10T18:43:20.555840+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-06-10T18:43:23.299943+00:00 heroku[web.1]: Process exited with status 0
+2014-06-10T18:43:25.381213+00:00 app[web.1]: /app/app/controllers/questions_controller.rb:14: warning: else without rescue is useless
+2014-06-10T18:43:25.650555+00:00 app[web.1]: => Rails 4.0.2 application starting in production on http://0.0.0.0:55565
+2014-06-10T18:43:25.650552+00:00 app[web.1]: => Booting Thin
+2014-06-10T18:43:25.650559+00:00 app[web.1]: Thin web server (v1.6.2 codename Doc Brown)
+2014-06-10T18:43:25.650567+00:00 app[web.1]: Listening on 0.0.0.0:55565, CTRL+C to stop
+2014-06-10T18:43:25.
+650557+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-06-10T18:43:25.650558+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-06-10T18:43:25.650565+00:00 app[web.1]: Maximum connections set to 1024
+2014-06-10T18:43:26.038245+00:00 heroku[web.1]: State changed from starting to up
+2014-06-10T18:44:00.126246+00:00 heroku[router]: at=info method=POST path=/api/sessions host=geosforms.herokuapp.com request_id=42d68e75-7f8c-415b-bbfe-bcc8369ff299 fwd="201.153.109.178" dyno=web.1 connect=15ms service=142ms status=200 bytes=848
+2014-06-10T18:44:00.004224+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:44:00 +0000
+2014-06-10T18:44:00.004215+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:44:00 +0000
+2014-06-10T18:44:00.109377+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:44:00.109314+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:44:00.130634+00:00 app[web.1]: Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2014-06-10T18:44:00.109324+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:44:00.109396+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:44:00.130642+00:00 app[web.1]: Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2014-06-10T18:50:08.462132+00:00 heroku[api]: Starting process with command `rails c` by chaneque500@gmail.com
+2014-06-10T18:50:14.053309+00:00 heroku[run.2924]: Awaiting client
+2014-06-10T18:50:13.534057+00:00 heroku[run.2924]: State changed from starting to up
+2014-06-10T18:50:14.087149+00:00 heroku[run.2924]: Starting process with command `rails c`
+2014-06-10T18:50:59.793805+00:00 heroku[run.2924]: State changed from up to complete
+2014-06-10T18:50:59.785518+00:00 heroku[run.2924]: Process exited with status 0
+2014-06-10T18:51:16.226757+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by chaneque500@gmail.com
+2014-06-10T18:51:19.742805+00:00 heroku[run.4794]: State changed from starting to up
+2014-06-10T18:51:19.656721+00:00 heroku[run.4794]: Starting process with command `bundle exec rake db:migrate`
+2014-06-10T18:51:19.627758+00:00 heroku[run.4794]: Awaiting client
+2014-06-10T18:51:25.453893+00:00 heroku[run.4794]: State changed from up to complete
+2014-06-10T18:51:25.442405+00:00 heroku[run.4794]: Process exited with status 0
+2014-06-10T18:51:34.137000+00:00 heroku[api]: Starting process with command `rails c` by chaneque500@gmail.com
+2014-06-10T18:51:37.937218+00:00 heroku[run.6548]: State changed from starting to up
+2014-06-10T18:51:38.014392+00:00 heroku[run.6548]: Starting process with command `rails c`
+2014-06-10T18:51:37.940078+00:00 heroku[run.6548]: Awaiting client
+2014-06-10T18:52:04.386014+00:00 heroku[run.6548]: State changed from up to complete
+2014-06-10T18:52:04.374212+00:00 heroku[run.6548]: Process exited with status 0
+2014-06-10T18:52:09.595810+00:00 heroku[router]: at=info method=POST path=/api/sessions host=geosforms.herokuapp.com request_id=8074d7ea-3620-44a7-b710-e6b79d9e6152 fwd="201.153.109.178" dyno=web.1 connect=6ms service=25ms status=200 bytes=848
+2014-06-10T18:52:09.590595+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:52:09 +0000
+2014-06-10T18:52:09.590606+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:52:09 +0000
+2014-06-10T18:52:09.593161+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:52:09.593166+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:52:09.593210+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:52:09.594642+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2014-06-10T18:52:09.593253+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:52:09.594636+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2014-06-10T18:52:34.215503+00:00 heroku[router]: at=info method=GET path=/login host=geosforms.herokuapp.com request_id=9385dac7-c0aa-4b5b-ad03-91609091d620 fwd="201.153.109.178" dyno=web.1 connect=1ms service=4ms status=301 bytes=390
+2014-06-10T18:52:34.410199+00:00 heroku[router]: at=info method=GET path=/ host=geosforms.herokuapp.com request_id=2b21af0a-c6de-4c1e-b343-94edb162c112 fwd="201.153.109.178" dyno=web.1 connect=1ms service=27ms status=200 bytes=2254
+2014-06-10T18:52:34.219703+00:00 app[web.1]: Started GET "/login" for 201.153.109.178 at 2014-06-10 18:52:34 +0000
+2014-06-10T18:52:34.391427+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 18:52:34 +0000
+2014-06-10T18:52:34.391440+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 18:52:34 +0000
+2014-06-10T18:52:34.393547+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T18:52:34.393534+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T18:52:34.397239+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.5ms)
+2014-06-10T18:52:34.397245+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.5ms)
+2014-06-10T18:52:34.414064+00:00 app[web.1]: Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+2014-06-10T18:52:34.414056+00:00 app[web.1]: Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+2014-06-10T18:52:34.219742+00:00 app[web.1]: Started GET "/login" for 201.153.109.178 at 2014-06-10 18:52:34 +0000
+2014-06-10T18:52:34.579959+00:00 heroku[router]: at=info method=GET path=/assets/application-22c31844cff8b588f993053e7c761f7c.css host=geosforms.herokuapp.com request_id=dca865a3-adfe-4ac4-b317-955066ea8df7 fwd="201.153.109.178" dyno=web.1 connect=21ms service=14ms status=304 bytes=87
+2014-06-10T18:52:34.685917+00:00 heroku[router]: at=info method=GET path=/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js host=geosforms.herokuapp.com request_id=bd73f565-83fa-4eab-aebf-8fb9afa6ce68 fwd="201.153.109.178" dyno=web.1 connect=3ms service=5ms status=304 bytes=87
+2014-06-10T18:52:35.301765+00:00 heroku[router]: at=info method=GET path=/templates/sessions/login.html host=geosforms.herokuapp.com request_id=6f44db6c-3192-4b05-ab53-366fca4c672f fwd="201.153.109.178" dyno=web.1 connect=1ms service=3ms status=200 bytes=1144
+2014-06-10T18:52:35.873409+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=geosforms.herokuapp.com request_id=a9f4dd70-f770-4d1e-9228-06637eeaccd6 fwd="201.153.109.178" dyno=web.1 connect=1ms service=3ms status=200 bytes=182
+2014-06-10T18:52:38.757289+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:52:38 +0000
+2014-06-10T18:52:38.767532+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:52:38.757258+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:52:38 +0000
+2014-06-10T18:52:38.767604+00:00 app[web.1]:   Parameters: {"email"=>"ricardo", "password"=>"[FILTERED]", "session"=>{"email"=>"ricardo", "password"=>"[FILTERED]"}}
+2014-06-10T18:52:38.767677+00:00 app[web.1]:   Parameters: {"email"=>"ricardo", "password"=>"[FILTERED]", "session"=>{"email"=>"ricardo", "password"=>"[FILTERED]"}}
+2014-06-10T18:52:38.767524+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:52:39.021418+00:00 heroku[router]: at=info method=POST path=/api/sessions host=geosforms.herokuapp.com request_id=90f89829-3551-4a51-aa22-fab9f1a0c5e8 fwd="201.153.109.178" dyno=web.1 connect=8ms service=294ms status=200 bytes=849
+2014-06-10T18:52:39.165793+00:00 heroku[router]: at=info method=GET path=/templates/forms/index.html host=geosforms.herokuapp.com request_id=2ae43624-0ef5-433d-964e-9caab832d54d fwd="201.153.109.178" dyno=web.1 connect=8ms service=9ms status=200 bytes=1861
+2014-06-10T18:52:39.022174+00:00 app[web.1]: Completed 200 OK in 254ms (Views: 0.3ms | ActiveRecord: 41.1ms)
+2014-06-10T18:52:39.022182+00:00 app[web.1]: Completed 200 OK in 254ms (Views: 0.3ms | ActiveRecord: 41.1ms)
+2014-06-10T18:52:39.407804+00:00 heroku[router]: at=info method=GET path=/api/forms host=geosforms.herokuapp.com request_id=e6d8260e-f889-440b-a446-c3ba6b7c9955 fwd="201.153.109.178" dyno=web.1 connect=29ms service=41ms status=200 bytes=843
+2014-06-10T18:52:39.447195+00:00 heroku[router]: at=info method=GET path=/api/projects host=geosforms.herokuapp.com request_id=2ac1144d-e7b3-4b8c-9c98-2f237828de2e fwd="201.153.109.178" dyno=web.1 connect=19ms service=75ms status=200 bytes=846
+2014-06-10T18:52:39.376630+00:00 app[web.1]: Processing by FormsController#index as JSON
+2014-06-10T18:52:39.399188+00:00 app[web.1]: Completed 200 OK in 22ms (Views: 1.0ms | ActiveRecord: 26.6ms)
+2014-06-10T18:52:39.374811+00:00 app[web.1]: Started GET "/api/forms" for 201.153.109.178 at 2014-06-10 18:52:39 +0000
+2014-06-10T18:52:39.400493+00:00 app[web.1]: Started GET "/api/projects" for 201.153.109.178 at 2014-06-10 18:52:39 +0000
+2014-06-10T18:52:39.410632+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 2.7ms)
+2014-06-10T18:52:39.403261+00:00 app[web.1]: Processing by ProjectsController#index as JSON
+2014-06-10T18:52:39.399194+00:00 app[web.1]: Completed 200 OK in 22ms (Views: 1.0ms | ActiveRecord: 26.6ms)
+2014-06-10T18:52:39.403194+00:00 app[web.1]: Processing by ProjectsController#index as JSON
+2014-06-10T18:52:39.376636+00:00 app[web.1]: Processing by FormsController#index as JSON
+2014-06-10T18:52:39.374818+00:00 app[web.1]: Started GET "/api/forms" for 201.153.109.178 at 2014-06-10 18:52:39 +0000
+2014-06-10T18:52:39.410639+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 2.7ms)
+2014-06-10T18:52:39.400498+00:00 app[web.1]: Started GET "/api/projects" for 201.153.109.178 at 2014-06-10 18:52:39 +0000
+2014-06-10T18:52:41.915403+00:00 heroku[router]: at=info method=POST path=/api/sessions host=geosforms.herokuapp.com request_id=e6b85b57-013c-42b8-b26d-d6762654ca8d fwd="201.153.109.178" dyno=web.1 connect=1ms service=15ms status=200 bytes=848
+2014-06-10T18:52:41.912301+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:52:41 +0000
+2014-06-10T18:52:41.916095+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2014-06-10T18:52:41.914294+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:52:41.912292+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:52:41 +0000
+2014-06-10T18:52:41.914359+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:52:41.914300+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:52:41.914388+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:52:41.916089+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2014-06-10T18:53:20.740702+00:00 heroku[router]: at=info method=POST path=/api/sessions host=geosforms.herokuapp.com request_id=61d15362-b5d5-4147-93cc-63fcf19ae714 fwd="201.153.109.178" dyno=web.1 connect=1ms service=6ms status=200 bytes=848
+2014-06-10T18:53:20.746261+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:53:20 +0000
+2014-06-10T18:53:20.747340+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:53:20.746271+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:53:20 +0000
+2014-06-10T18:53:20.747389+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:53:20.747346+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:53:20.748136+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2014-06-10T18:53:20.747372+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:53:20.748142+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+2014-06-10T18:54:44.642296+00:00 heroku[router]: at=info method=POST path=/api/sessions host=geosforms.herokuapp.com request_id=65f42040-45f4-4375-91df-d631a223dfd7 fwd="201.153.109.178" dyno=web.1 connect=1ms service=219ms status=200 bytes=849
+2014-06-10T18:54:44.433758+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:54:44 +0000
+2014-06-10T18:54:44.433749+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:54:44 +0000
+2014-06-10T18:54:44.434886+00:00 app[web.1]:   Parameters: {"email"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:54:44.434847+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:54:44.434903+00:00 app[web.1]:   Parameters: {"email"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:54:44.648926+00:00 app[web.1]: Completed 200 OK in 214ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+2014-06-10T18:54:44.434852+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:54:44.648917+00:00 app[web.1]: Completed 200 OK in 214ms (Views: 0.2ms | ActiveRecord: 1.6ms)

@@ -1,5 +1,5 @@
 @app.controller 'ProjectsCtrl', 
-	['$scope', '$location', '$log', 'Project', ($scope, $location, $log, Project) ->
+	['$scope', '$routeParams', '$location', '$log', 'Project', ($scope, $routeParams, $location, $log, Project) ->
 
 		$scope.viewAllProjects = true
 		$scope.viewSingleProject = false
@@ -9,15 +9,12 @@
 				$scope.projects = $data.projects
 			)
 
-		$scope.detalles = () ->
-			$loction.path("/#/project/" + project.id)
+		$scope.detalles = ($project) ->
+			$location.path("/projects/" + $project.id)
 			
-		$scope.show = ($project) ->
-			console.log("show")
-
-			Project.show({ id: $id }, ($data) ->
+		$scope.show = () ->
+			Project.show({ id: $routeParams.id }, ($data) ->
 				$scope.project = $data.project
-				$scope.verSingle($id)
 			)
 
 		$scope.nuevo = ($params) ->
@@ -33,14 +30,4 @@
 			Project.destroy({ id: $id }, ($data) ->
 				$scope.index()
 			)
-
-		$scope.verAll = () ->
-			$scope.viewAllProjects = true
-			$scope.viewSingleProject = false
-			$scope.project = angular.copy({})
-
-		$scope.verSingle = ($id) ->
-			$scope.viewAllProjects = false
-			$scope.viewSingleProject = true
-			$scope.idProject = $id
 	]

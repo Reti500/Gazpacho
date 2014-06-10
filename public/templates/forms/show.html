@@ -1,11 +1,11 @@
-<p></p>
+<p ng-init="show()"></p>
 
-<div class="row ">
+<div class="row">
 	<div class="col-md-10 col-md-push-1">
 		<div class="panel panel-primary">
 
 			<div class="panel-heading">
-				{{form.form.name}}
+				{{form.name}}
 				<span class="pull-right">
 					<button class="btn btn-success btn-xs">Editar</button>
 					<button class="btn btn-danger btn-xs">Desactivar</button>
@@ -23,28 +23,16 @@
         </thead>
 
         <tbody>
-        	<tr ng-repeat="(key, preg) in form.form.preguntas">
+        	<tr ng-repeat="(key, preg) in form.questions" ng-click="ver_pregunta()">
 				<td>{{key + 1}}</td>
 				<td>{{preg.title}}</td>
-				<td ng-switch="preg.qtype_id">
-					<div ng-switch-when="1">Abiarta</div>
-					<div ng-switch-when="2">Cerrada</div>
-				</td>
+				<td>{{preg.type}}</td>
 				<td>
 					<a class="btn btn-success btn-xs" href="#/forms/{{form.form.id}}/edit">Edit</a>
 					<a class="btn btn-danger btn-xs" href="">Eliminar</a>
 				</td>
 			</tr>
         </tbody>
-
-        <tfoot>
-          <tr>
-            <th>#</th>
-            <th>Titulo</th>
-            <th>tipo</th>
-            <th>Acciones</the>
-          </tr>
-        </tfoot>
       </table>
 		</div>
 	</div>
