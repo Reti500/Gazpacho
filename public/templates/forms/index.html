@@ -35,7 +35,7 @@
 </div>
 
 <div class="row">
-  <form name="newForm" class="col-md-10 col-md-push-1 form-inline" role="form" novalidate ng-submit="new(newForm.$valid)">
+  <form name="newForm" class="col-md-10 col-md-push-1 form-inline" role="form" novalidate ng-submit="nuevo(form)">
     <div class="form-group" ng-class="{ 'has-error' : newForm.name.$invalid && !newForm.name.$pristine }">
       Nombre: <input type="text" name="name" ng-model="form.name" class="form-control" required/>
     </div>

@@ -11,5 +11,11 @@
 	$scope.new = ($routeParams, $isValid) ->
 		if $isValid
 			alert($routeParams)
+
+	$scope.nuevo = ($params) ->
+		$scope.form = new Form($params)
+		Form.create($scope.form, ($data) ->
+			$scope.forms.push($data.form)
+		)
 	console.log("aef")
 ]

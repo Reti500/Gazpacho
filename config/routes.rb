@@ -7,6 +7,9 @@ Gazpacho::Application.routes.draw do
   # get 'questions.:form_id' => 'questions#index'
   # get 'answers/new.:question_id' => 'answers#new'
 
+  get 'login' => redirect('/#/login'), as: :login
+  get 'logout' => 'sessions#destroy', as: :logout
+
   get 'forms' => redirect('/#/forms'), as: :forms
   get 'projects' => redirect('/#/projects'), as: :projects
 
