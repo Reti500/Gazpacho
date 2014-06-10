@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
 
   def not_authenticated
     #render json: { message: "No estas logueado" }
-    redirect_to login_url, :alert => "First log in to view this page."
+    render json: { state: "user-error" }
   end
 
   rescue_from CanCan::AccessDenied do |exception|
