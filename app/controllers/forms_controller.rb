@@ -1,4 +1,6 @@
 class FormsController < ApplicationController
+  skip_before_filter :verify_authenticity_token, :if => Proc.new { |c| c.request.format == 'application/json' }
+  
   before_action :require_login
   before_action :set_form, only: [:show, :edit, :update, :destroy, :change_state]
 

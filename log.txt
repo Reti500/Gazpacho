@@ -1,0 +1,1140 @@
+2014-06-10T17:40:44.916305+00:00 heroku[api]: Enable Logplex by chaneque500@gmail.com
+2014-06-10T17:40:44.916364+00:00 heroku[api]: Release v2 created by chaneque500@gmail.com
+2014-06-10T17:42:19+00:00 heroku[slug-compiler]: Slug compilation started
+2014-06-10T17:43:41+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-06-10T17:43:40.871471+00:00 heroku[api]: Set LANG, RAILS_ENV, RACK_ENV config vars by chaneque500@gmail.com
+2014-06-10T17:43:40.618289+00:00 heroku[api]: Release v3 created by chaneque500@gmail.com
+2014-06-10T17:43:40.740526+00:00 heroku[api]: Release v4 created by chaneque500@gmail.com
+2014-06-10T17:43:40.871532+00:00 heroku[api]: Release v5 created by chaneque500@gmail.com
+2014-06-10T17:43:40.618214+00:00 heroku[api]: Set DATABASE_URL config vars by chaneque500@gmail.com
+2014-06-10T17:43:40.216698+00:00 heroku[api]: Scale to web=1 by chaneque500@gmail.com
+2014-06-10T17:43:40.740463+00:00 heroku[api]: Attach HEROKU_POSTGRESQL_NAVY resource by chaneque500@gmail.com
+2014-06-10T17:43:40.967557+00:00 heroku[api]: Deploy 03616e9 by chaneque500@gmail.com
+2014-06-10T17:43:45.877752+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 45728 -e production`
+2014-06-10T17:43:40.967672+00:00 heroku[api]: Release v6 created by chaneque500@gmail.com
+2014-06-10T17:43:52.433185+00:00 app[web.1]: /app/app/controllers/questions_controller.rb:14: warning: else without rescue is useless
+2014-06-10T17:43:53.025845+00:00 heroku[web.1]: State changed from starting to up
+2014-06-10T17:43:54.478867+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=26259f99-b4b6-46b7-a31f-49b00546d826 fwd="201.103.160.123" dyno=web.1 connect=1ms service=189ms status=200 bytes=2292
+2014-06-10T17:43:54.708027+00:00 heroku[router]: at=info method=GET path=/assets/application-22c31844cff8b588f993053e7c761f7c.css host=gentle-temple-7248.herokuapp.com request_id=c399d26c-273c-42ee-ac01-28ca28d8bf0c fwd="201.103.160.123" dyno=web.1 connect=2ms service=11ms status=404 bytes=1570
+2014-06-10T17:43:54.735405+00:00 heroku[router]: at=info method=GET path=/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js host=gentle-temple-7248.herokuapp.com request_id=00322e60-bc98-475f-b0ce-c54633411d5e fwd="201.103.160.123" dyno=web.1 connect=1ms service=28ms status=404 bytes=1570
+2014-06-10T17:43:54.934293+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=gentle-temple-7248.herokuapp.com request_id=61ad542c-d2c1-4b5d-9c75-c820cfb95625 fwd="201.103.160.123" dyno=web.1 connect=1ms service=8ms status=404 bytes=1570
+2014-06-10T17:43:54.924335+00:00 app[web.1]: Listening on 0.0.0.0:45728, CTRL+C to stop
+2014-06-10T17:43:54.924340+00:00 app[web.1]: I, [2014-06-10T17:43:54.459846 #2]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.5ms)
+2014-06-10T17:43:54.924342+00:00 app[web.1]: I, [2014-06-10T17:43:54.475050 #2]  INFO -- : Completed 200 OK in 46ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+2014-06-10T17:43:54.924337+00:00 app[web.1]: I, [2014-06-10T17:43:54.3350
+81 #2]  INFO -- : Started GET "/" for 201.103.160.123 at 2014-06-10 17:43:54 +0000
+2014-06-10T17:43:54.924339+00:00 app[web.1]: I, [2014-06-10T17:43:54.428476 #2]  INFO -- : Processing by HomeController#index as HTML
+2014-06-10T17:43:54.924320+00:00 app[web.1]: => Booting Thin
+2014-06-10T17:43:54.924326+00:00 app[web.1]: => Rails 4.0.2 application starting in production on http://0.0.0.0:45728
+2014-06-10T17:43:54.924348+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/assets/application-22c31844cff8b588f993053e7c761f7c.css"):
+2014-06-10T17:43:54.924344+00:00 app[web.1]: I, [2014-06-10T17:43:54.698939 #2]  INFO -- : Started GET "/assets/application-22c31844cff8b588f993053e7c761f7c.css" for 201.103.160.123 at 2014-06-10 17:43:54 +0000
+2014-06-10T17:43:54.924346+00:00 app[web.1]: F, [2014-06-10T17:43:54.700673 #2] FATAL -- : 
+2014-06-10T17:43:54.924328+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-06-10T17:43:54.924330+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-06-10T17:43:54.924357+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T17:43:54.924384+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T17:43:54.924386+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T17:43:54.924391+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T17:43:54.924390+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T17:43:54.924396+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T17:43:54.924397+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T17:43:54.924387+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T17:43:54.924393+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T17:43:54.924389+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T17:43:54.924394+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T17:43:54.924351+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T17:43:54.924352+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T17:43:54.924332+00:00 app[web.1]: Thin web server (v1.6.2 codename Do
+c Brown)
+2014-06-10T17:43:54.924334+00:00 app[web.1]: Maximum connections set to 1024
+2014-06-10T17:43:54.924349+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T17:43:54.924401+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T17:43:54.924407+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T17:43:54.924403+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T17:43:54.924408+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T17:43:54.924399+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T17:43:54.924404+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T17:43:54.924400+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T17:43:54.924405+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T17:43:54.924413+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T17:43:54.924415+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T17:43:54.924354+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T17:43:54.924355+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T17:43:54.924412+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T17:43:54.924419+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T17:43:54.924409+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T17:43:54.924411+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T17:43:54.924416+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T17:43:54.924417+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T17:43:54.92442
+3+00:00 app[web.1]: 
+2014-06-10T17:43:54.924420+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T17:43:54.924422+00:00 app[web.1]: 
+2014-06-10T17:43:54.924433+00:00 app[web.1]: F, [2014-06-10T17:43:54.731319 #2] FATAL -- : 
+2014-06-10T17:43:54.924434+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js"):
+2014-06-10T17:43:54.924447+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T17:43:54.924448+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T17:43:54.924425+00:00 app[web.1]: I, [2014-06-10T17:43:54.728331 #2]  INFO -- : Started GET "/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js" for 201.103.160.123 at 2014-06-10 17:43:54 +0000
+2014-06-10T17:43:54.924438+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T17:43:54.924440+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T17:43:54.924436+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T17:43:54.924437+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T17:43:54.924451+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T17:43:54.924453+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T17:43:54.924441+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T17:43:54.924442+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T17:43:54.924444+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T17:43:54.924445+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T17:43:54.924449+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T17:43:54.924457+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T17:43:54.924463+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T17:43:54.924454+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T17:43:54.924486+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T17:43:54.924456+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T17:43:54.924469+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T17:43:54.924470+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T17:43:54.924465+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T17:43:54.924482+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T17:43:54.924483+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T17:43:54.924485+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T17:43:54.924466+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T17:43:54.924468+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T17:43:54.924489+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T17:43:54.924491+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T17:43:54.924472+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T17:43:54.924513+00:00 app[web.1]: F, [2014-06-10T17:43:54.924221 #2] FATAL -- : 
+2014-06-10T17:43:54.924516+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T17:43:54.924548+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T17:43:54.924549+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T17:43:54.924480+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T17:43:54.924488+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T17:43:54.924508+00:00 app[web.1]: 
+2014-06-10T17:43:54.924517+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T17:43:54.924541+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T17:43:54.924519+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T17:43:54.924539+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T17:43:54.924510+00:00 app[web.1]: 
+2014-06-10T17:43:54.924520+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T17:43:54.924524+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T17:43:54.924505+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T17:43:54.924511+00:00 app[web.1]: I, [2014-06-10T17:43:54.922329 #2]  INFO -- : Started GET "/favicon.ico" for 201.103.160.123 at 2014-06-10 17:43:54 +0000
+2014-06-10T17:43:54.924522+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T17:43:54.924534+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T17:43:54.924550+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T17:43:54.924567+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T17:43:54.924552+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T17:43:54.924559+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T17:43:54.924565+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T17:43:54.924570+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T17:43:54.924566+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.
+rb:84:in `start'
+2014-06-10T17:43:54.924507+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T17:43:54.924514+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+2014-06-10T17:43:54.924523+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T17:43:54.924547+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T17:43:54.924557+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T17:43:54.924563+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T17:43:54.924574+00:00 app[web.1]: 
+2014-06-10T17:43:54.924544+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T17:43:54.924555+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T17:43:54.924560+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T17:43:54.924573+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T17:43:54.924545+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T17:43:54.924556+00:00 app[web.1]:   vendo
+r/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T17:43:54.924561+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T17:43:54.924569+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T17:43:54.924576+00:00 app[web.1]: 
+2014-06-10T17:43:54.924542+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T17:43:54.924553+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T17:43:54.924571+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T17:44:06.471208+00:00 heroku[router]: at=info method=GET path=/projects host=gentle-temple-7248.herokuapp.com request_id=9f4eab38-b1f5-4d60-a02a-0085d455ed96 fwd="201.103.160.123" dyno=web.1 connect=20ms service=40ms status=301 bytes=414
+2014-06-10T17:44:06.638958+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=d13c3cfc-2053-42e2-80fc-891169f442c0 fwd="201.103.160.123" dyno=web.1 connect=4ms service=8ms status=304 bytes=762
+2014-06-10T17:44:06.844197+00:00 heroku[router]: at=info method=GET path=/assets/application-22c31844cff8b588f993053e7c761f7c.css host=gentle-temple-7248.herokuapp.com request_id=3438eb68-c9a8-4911-971c-6f6d217eccb2 fwd="201.103.160.123" dyno=web.1 connect=1ms s
+ervice=7ms status=404 bytes=1570
+2014-06-10T17:44:06.970960+00:00 heroku[router]: at=info method=GET path=/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js host=gentle-temple-7248.herokuapp.com request_id=893ace89-8dd2-49bb-8b15-ed23a69d27b0 fwd="201.103.160.123" dyno=web.1 connect=1ms service=8ms status=404 bytes=1570
+2014-06-10T17:44:09.079044+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=2e7a683a-59d0-488d-9a49-3aa9b706cbc2 fwd="201.103.160.123" dyno=web.1 connect=3ms service=13ms status=304 bytes=762
+2014-06-10T17:44:08.916287+00:00 heroku[router]: at=info method=GET path=/forms host=gentle-temple-7248.herokuapp.com request_id=57d5c606-2024-4620-ab12-6f54c59ceaeb fwd="201.103.160.123" dyno=web.1 connect=1ms service=6ms status=301 bytes=408
+2014-06-10T17:44:09.277420+00:00 heroku[router]: at=info method=GET path=/assets/application-22c31844cff8b588f993053e7c761f7c.css host=gentle-temple-7248.herokuapp.com request_id=428ec562-3e99-4a73-a785-5e52c776a37d fwd="201.103.160.123" dyno=web.1 connect=2ms service=12ms status=404 bytes=1570
+2014-06-10T17:44:09.404249+00:00 heroku[router]: at=info method=GET path=/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js host=gentle-temple-7248.herokuapp.com request_id=41f64f06-a6fc-4591-a0a4-658e85eaf668 fwd="201.103.160.123" dyno=web.1 connect=1ms service=11ms status=404 bytes=1570
+2014-06-10T17:44:09.266781+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/assets/application-22c31844cff8b588f993053e7c761f7c.css"):
+2014-06-10T17:44:09.266798+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T17:44:09.266823+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T17:44:09.266881+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T17:44:09.266924+00:00 app[web.1]: I, [2014-06-10T17:44:09.066797 #2]  INFO -- : Processing by HomeController#index as HTML
+2014-06-10T17:44:09.266990+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T17:44:09.267004+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T17:44:09.267022+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T17:44:09.266772+00:00 app[web.1]: I, [2014-06-10T17:44:06.631378 #2]  INFO -- : Processing by HomeController#index as HTML
+2014-06-10T17:44:09.266782+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T17:44:09.266812+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T17:44:09.266828+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T17:44:09.266879+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T17:44:09.266922+00:00 app[web.1]: I, [2014-06-10T17:44:08.905435 #2]  INFO -- : Started GET "/forms" for 201.103.160.123 at 2014-06-10 17:44:08 +0000
+2014-06-10T17:44:09.267006+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T17:44:09.267021+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T17:44:09.266785+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T17:44:09.266800+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T17:44:09.266843+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T17:44:09.266885+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T17:44:09.266926+00:00 app[web.1]: I, [2014-06-10T17:44:09.068001 #2]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T17:44:09.266987+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T17:44:09.266991+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T17:44:09.267007+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T17:44:09.267024+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T17:44:09.266775+00:00 app[web.1]: I, [2014-06-10T17:44:06.634241 #2]  INFO -- : Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+2014-06-10T17:44:09.266797+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T17:44:09.266813+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T17:44:09.266819+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T17:44:09.266847+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T17:44:09.266852+00:00 app[web.1]: 
+2014-06-10T17:44:09.266876+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T17:44:09.266886+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T17:44:09.266888+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T17:44:09.266895+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T17:44:09.266900+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T17:44:09.266905+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T17:44:09.266910+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T17:44:09.266918+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T17:44:09.266751+00:00 app[web.1]: I, [2014-06-10T17:44:06.629386 #2]  INFO -- : Started GET "/" for 201.103.160.123 at 2014-06-10 17:44:06 +0000
+2014-06-10T17:44:09.266777+00:00 app[web.1]: I, [2014-06-10T17:44:06.835978 #2]  INFO -- : Started GET "/assets/application-22c31844cff8b588f993053e7c761f7c.css" for 201.103.160.123 at 2014-06-10 17:44:06 +0000
+2014-06-10T17:44:09.266810+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T17:44:09.266817+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T17:44:09.266822+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T17:44:09.266845+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T17:44:09.266851+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T17:44:09.266875+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T17:44:09.266883+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T17:44:09.266893+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T17:44:09.266898+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T17:44:09.266904+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T17:44:09.266909+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T17:44:09.266914+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T17:44:09.266923+00:00 app[web.1]: I, [2014-06-10T17:44:09.065495 #2]  INFO -- : Started GET "/" for 201.103.160.123 at 2014-06-10 17:44:09 +0000
+2014-06-10T17:44:09.266977+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T17:44:09.266982+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T17:44:09.266986+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T17:44:09.266787+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T17:44:09.266803+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T17:44:09.266825+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T17:44:09.266863+00:00 app[web.1]: I, [2014-06-10T17:44:06.965431 #2]  INFO -- : Started GET "/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js" for 201.103.160.123 at 2014-06-10 17:44:06 +0000
+2014-06-10T17:44:09.266917+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T17:44:09.266989+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/a
+ctivesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T17:44:09.266992+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T17:44:09.267008+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T17:44:09.267009+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T17:44:09.267011+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T17:44:09.267012+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T17:44:09.267013+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T17:44:09.267014+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T17:44:09.267016+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T17:44:09.267017+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T17:44:09.267019+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T17:44:09.267025+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T17:44:09.266744+00:00 app[web.1]: I, [2014-06-10T17:44:06.448865 #2]  INFO -- : Started GET "/projects" for 201.103.160.123 at 2014-06-10 17:44:06 +0000
+2014-06-10T17:44:09.266788+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T17:44:09.266809+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T17:44:09.266815+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T17:44:09.266820+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T17:44:09.266844+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T17:44:09.266853+00:00 app[web.1]: 
+2014-06-10T17:44:09.266877+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T17:44:09.266884+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T17:44:09.266894+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T17:44:09.266899+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T17:44:09.266901+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T17:44:09.266906+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T17:44:09.266912+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T17:44:09.266919+00:00 app[web.1]: 
+2014-06-10T17:44:09.266928+00:00 app[web.1]: I, [2014-06-10T17:44:09.260624 #2]  INFO -- : Started GET "/assets/application-22c31844cff8b588f993053e7c761f7c.css" for 201.103.160.123 at 2014-06-10 17:44:09 +0000
+2014-06-10T17:44:09.266974+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T17:44:09.266980+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T17:44:09.266985+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T17:44:09.266779+00:00 app[web.1]: F, [2014-06-10T17:44:06.837540 #2] FATAL -- : 
+2014-06-10T17:44:09.266806+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T17:44:09.266827+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T17:44:09.266864+00:00 app[web.1]: F, [2014-06-10T17:44:06.966961 #2] FATAL -- : 
+2014-06-10T17:44:09.266915+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T17:44:09.267003+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T17:44:09.267020+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T17:44:09.267026+00:00 app[web.1]: 
+2014-06-10T17:44:09.266774+00:00 app[web.1]: I, [2014-06-10T17:44:06.632914 #2]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T17:44:09.266784+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T17:44:09.266801+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/
+lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T17:44:09.266816+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T17:44:09.266824+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T17:44:09.266848+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T17:44:09.266849+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T17:44:09.266865+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js"):
+2014-06-10T17:44:09.266880+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T17:44:09.266891+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T17:44:09.266896+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T17:44:09.266903+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T17:44:09.266908+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T17:44:09.266913+00:00 app[web.1]:   vend
+or/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T17:44:09.266920+00:00 app[web.1]: 
+2014-06-10T17:44:09.266969+00:00 app[web.1]: F, [2014-06-10T17:44:09.266596 #2] FATAL -- : 
+2014-06-10T17:44:09.266976+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T17:44:09.266981+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T17:44:09.267027+00:00 app[web.1]: 
+2014-06-10T17:44:09.266927+00:00 app[web.1]: I, [2014-06-10T17:44:09.072970 #2]  INFO -- : Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+2014-06-10T17:44:09.266973+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/assets/application-22c31844cff8b588f993053e7c761f7c.css"):
+2014-06-10T17:44:09.266978+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T17:44:09.266983+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T17:44:10.695982+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=fdf79522-880e-4f90-97e2-1da98330004f fwd="201.103.160.123" dyno=web.1 connect=1ms service=13ms status=304 bytes=762
+2014-06-10T17:44:10.883625+00:00 heroku[router]: at=info method=GET path=/assets/application-22c31844cff8b588f993053e7c761f7c.css host=gentle-temple-7248.herokuapp.com request_id=2946768d-492c-47b9-83f9-fccb8b0834af fwd="201.103.160.123" dyno=web.1 connect=2ms service=5ms status=404 bytes=1570
+2014-06-10T17:44:11.012955+00:00 heroku[router]: at=info method=GET path=/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js host=gentle-temple-7248.herokuapp.com request_id=9a21a5a4-87a9-4ab8-9ca4-43ebea96107c fwd="201.103.160.123" dyno=web.1 connect=1ms service=8ms status=404 bytes=1570
+2014-06-10T17:44:11.005104+00:00 app[web.1]: I, [2014-06-10T17:44:09.390895 #2]  INFO -- : Started GET "/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js" for 201.103.160.123 at 2014-06-10 17:44:09 +0000
+2014-06-10T17:44:11.005118+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T17:44:11.005114+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js"):
+2014-06-10T17:44:11.005112+00:00 app[web.1]: F, [2014-06-10T17:44:09.392738 #2] FATAL -- : 
+2014-06-10T17:44:11.005150+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T17:44:11.005149+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T17:44:11.005178+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T17:44:11.005190+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T17:44:11.005191+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T17:44:11.005194+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T17:44:11.005198+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T17:44:11.005146+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T17:44:11.005152+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T17:44:11.005193+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T17:44:11.005197+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T17:44:11.005200+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T17:44:11.005204+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T17:44:11.005144+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T17:44:11.005116+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T17:44:11.005147+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T17:44:11.005188+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T17:44:11.005196+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T17:44:11.005201+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T17:44:11.005202+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T17:44:11.005206+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T17:44:11.005209+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T17:44:11.005205+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T17:44:11.005212+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T17:44:11.005208+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T17:44:11.005215+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T17:44:11.005219+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T17:44:11.005216+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T17:44:11.005221+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T17:44:11.005211+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T17:44:11.005223+00:00 app[web.1]: 
+2014-06-10T17:44:11.005214+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T17:44:11.005222+00:00 app[web.1]: 
+2014-06-10T17:44:11.005225+00:00 app[web.1]: I, [2014-06-10T17:44:10.679041 #2]  INFO -- : Started GET "/" for 201.103.160.123 at 2014-06-10 17:44:10 +0000
+2014-06-10T17:44:11.005230+00:00 app[web.1]: I, [2014-06-10T17:44:10.872937 #2]  INFO -- : Started GET "/assets/application-22c31844cff8b588f993053e7c761f7c.css" for 201.103.160.123 at 2014-06-10 17:44:10 +0000
+2014-06-10T17:44:11.005232+00:00 app[web.1]: F, [2014-06-10T17:44:10.874503 #2] FATAL -- : 
+2014-06-10T17:44:11.005235+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T17:44:11.005248+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T17:44:11.005253+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T17:44:11.005229+00:00 app[web.1]: I, [2014-06-10T17:44:10.687124 #2]  INFO -- : Completed 200 OK in 7ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+2014-06-10T17:44:11.005233+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/assets/application-22c31844cff8b588f993053e7c761f7c.css"):
+2014-06-10T17:44:11.005246+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T17:44:11.005251+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T17:44:11.005257+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T17:44:11.005218+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T17:44:11.005226+00:00 app[web.1]: I, [2014-06-10T17:44:10.680343 #2]  INFO -- : Processing by HomeController#index as HTML
+2014-06-10T17:44:11.005247+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T17:44:11.005250+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T17:44:11.005252+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T17:44:11.005228+00:00 app[web.1]: I, [2014-06-10T17:44:10.685909 #2]  INFO -- :   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T17:44:11.005255+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T17:44:11.005263+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T17:44:11.005268+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T17:44:11.005285+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T17:44:11.005272+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T17:44:11.005273+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T17:44:11.005275+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T17:44:11.005276+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T17:44:11.005278+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T17:44:11.005295+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T17:44:11.005260+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T17:44:11.005265+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T17:44:11.005282+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T17:44:11.005298+00:00 app[web.1]: 
+2014-06-10T17:44:11.005307+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exception
+s.rb:30:in `call'
+2014-06-10T17:44:11.005280+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T17:44:11.005299+00:00 app[web.1]: 
+2014-06-10T17:44:11.005301+00:00 app[web.1]: I, [2014-06-10T17:44:11.000356 #2]  INFO -- : Started GET "/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js" for 201.103.160.123 at 2014-06-10 17:44:11 +0000
+2014-06-10T17:44:11.005312+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T17:44:11.005264+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T17:44:11.005270+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T17:44:11.005271+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T17:44:11.005283+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T17:44:11.005309+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T17:44:11.005324+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T17:44:11.005340+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.
+2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T17:44:11.005302+00:00 app[web.1]: F, [2014-06-10T17:44:11.004876 #2] FATAL -- : 
+2014-06-10T17:44:11.005313+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T17:44:11.005256+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T17:44:11.005261+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T17:44:11.005297+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T17:44:11.005304+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js"):
+2014-06-10T17:44:11.005323+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T17:44:11.005337+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T17:44:11.005259+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T17:44:11.005267+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T17:44:11.005325+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T17
+:44:11.005338+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T17:44:11.005341+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T17:44:11.005368+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T17:44:11.005279+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T17:44:11.005306+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T17:44:11.005311+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T17:44:11.005355+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T17:44:11.005333+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T17:44:11.005334+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T17:44:11.005336+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T17:44:11.005342+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T17:44:11.005356+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T17:44:11.005358+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T17:44:11.005366+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T17:44:11.005362+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T17:44:11.005363+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T17:44:11.005364+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T17:44:11.005367+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T17:44:11.005372+00:00 app[web.1]: 
+2014-06-10T17:44:11.005308+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T17:44:11.005330+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T17:44:11.005332+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T17:44:11.005353+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T17:44:11.005357+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T17:44:11.005360+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T17:44:11.005370+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T17:44:11.005371+00:00 app[web.1]: 
+2014-06-10T17:46:32+00:00 heroku[slug-compiler]: Slug compilation started
+2014-06-10T17:47:03+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-06-10T17:47:03.832664+00:00 heroku[api]: Deploy 409f358 by chaneque500@gmail.com
+2014-06-10T17:47:03.832754+00:00 heroku[api]: Release v7 created by chaneque500@gmail.com
+2014-06-10T17:47:04.211439+00:00 heroku[web.1]: State changed from up to starting
+2014-06-10T17:47:10.749838+00:00 app[web.1]: Exiting
+2014-06-10T17:47:11.360965+00:00 app[web.1]: /app/app/controllers/questions_controller.rb:14: warning: else without rescue is useless
+2014-06-10T17:47:11.588572+00:00 app[web.1]: => Booting Thin
+2014-06-10T17:47:11.588578+00:00 app[web.1]: => Rails 4.0.2 application starting in production on http://0.0.0.0:18935
+2014-06-10T17:47:11.588582+00:00 app[web.1]: => Ctrl-C to shutdown server
+2014-06-10T17:47:11.588580+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2014-06-10T17:47:11.588584+00:00 app[web.1]: Thin web server (v1.6.2 codename Doc Brown)
+2014-06-10T17:47:11.588590+00:00 app[web.1]: Maximum connections set to 1024
+2014-06-10T17:47:11.588592+00:00 app[web.1]: Listening on 0.0.0.0:18935, CTRL+C to stop
+2014-06-10T17:47:07.119139+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 18935 -e production`
+2014-06-10T17:47:11.753391+00:00 heroku[web.1]: State changed from starting to up
+2014-06-10T17:47:13.330925+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=f3a9445f-6b39-41e1-8e0f-b50d5b70c21a fwd="201.153.109.178" dyno=web.1 connect=1ms service=187ms status=304 bytes=762
+2014-06-10T17:47:13.144916+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:13 +0000
+2014-06-10T17:47:13.144984+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:13 +0000
+2014-06-10T17:47:13.288188+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.5ms)
+2014-06-10T17:47:13.288198+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.5ms)
+2014-06-10T17:47:13.324767+00:00 app[web.1]: Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:13.324761+00:00 app[web.1]: Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:13.285274+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:47:13.285314+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:47:13.514484+00:00 heroku[router]: at=info method=GET path=/assets/application-22c31844cff8b588f993053e7c761f7c.css host=gentle-temple-7248.herokuapp.com request_id=f04dac47-2750-4ff1-bd6c-064c1b6996ff fwd="201.153.109.178" dyno=web.1 connect=2ms service=12ms status=200 bytes=100825
+2014-06-10T17:47:13.634285+00:00 heroku[router]: at=info method=GET path=/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js host=gentle-temple-7248.herokuapp.com request_id=7cfbc9d6-511e-4278-8a20-5c2c30cb7b40 fwd="201.153.109.178" dyno=web.1 connect=16ms service=53ms status=200 bytes=310913
+2014-06-10T17:47:08.817687+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2014-06-10T17:47:17.203841+00:00 heroku[router]: at=info method=GET path=/projects host=gentle-temple-7248.herokuapp.com request_id=cd3b4eab-e03c-4d0a-89ab-7135c5c069cd fwd="201.153.109.178" dyno=web.1 connect=2ms service=7ms status=301 bytes=414
+2014-06-10T17:47:17.357426+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=9af19c19-1a19-420f-ba41-b67e01bb9407 fwd="201.153.109.178" dyno=web.1 connect=2ms service=10ms status=304 bytes=762
+2014-06-10T17:47:17.193165+00:00 app[web.1]: Started GET "/projects" for 201.153.109.178 at 2014-06-10 17:47:17 +0000
+2014-06-10T17:47:17.350872+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:17 +0000
+2014-06-10T17:47:17.193175+00:00 app[web.1]: Started GET "/projects" for 201.153.109.178 at 2014-06-10 17:47:17 +0000
+2014-06-10T17:47:17.350891+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:17 +0000
+2014-06-10T17:47:17.352755+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:47:17.352762+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:47:17.353484+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T17:47:17.353488+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T17:47:17.355325+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:17.355366+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:17.570075+00:00 heroku[router]: at=info method=GET path=/templates/projects/index.html host=gentle-temple-7248.herokuapp.com request_id=1c37752b-c8a7-4575-b210-293c7bf0e00b fwd="201.153.109.178" dyno=web.1 connect=2ms service=4ms status=200 bytes=1753
+2014-06-10T17:47:17.756577+00:00 heroku[router]: at=info method=GET path=/api/projects host=gentle-temple-7248.herokuapp.com request_id=2c252d5e-d45e-4273-8137-23aa82d66575 fwd="201.153.109.178" dyno=web.1 connect=2ms service=8ms status=302 bytes=1194
+2014-06-10T17:47:17.880353+00:00 heroku[router]: at=info method=GET path=/login host=gentle-temple-7248.herokuapp.com request_id=47e559be-d837-421e-911a-57371616ce6a fwd="201.153.109.178" dyno=web.1 connect=2ms service=6ms status=301 bytes=408
+2014-06-10T17:47:17.749602+00:00 app[web.1]: Started GET "/api/projects" for 201.153.109.178 at 2014-06-10 17:47:17 +0000
+2014-06-10T17:47:17.749612+00:00 app[web.1]: Started GET "/api/projects" for 201.153.109.178 at 2014-06-10 17:47:17 +0000
+2014-06-10T17:47:17.751408+00:00 app[web.1]: Processing by ProjectsController#index as JSON
+2014-06-10T17:47:17.751416+00:00 app[web.1]: Processing by ProjectsController#index as JSON
+2014-06-10T17:47:17.752969+00:00 app[web.1]: Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+2014-06-10T17:47:17.880418+00:00 app[web.1]: Started GET "/login" for 201.153.109.178 at 2014-06-10 17:47:17 +0000
+2014-06-10T17:47:17.752741+00:00 app[web.1]: Redirected to http://gentle-temple-7248.herokuapp.com/login
+2014-06-10T17:47:17.752788+00:00 app[web.1]: Filter chain halted as :require_login rendered or redirected
+2014-06-10T17:47:17.752794+00:00 app[web.1]: Filter chain halted as :require_login rendered or redirected
+2014-06-10T17:47:17.752745+00:00 app[web.1]: Redirected to http://gentle-temple-7248.herokuapp.com/login
+2014-06-10T17:47:17.752963+00:00 app[web.1]: Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+2014-06-10T17:47:17.880428+00:00 app[web.1]: Started GET "/login" for 201.153.109.178 at 2014-06-10 17:47:17 +0000
+2014-06-10T17:47:18.024204+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=243f0fb8-e8fe-4d8a-a23a-34051e02bf1c fwd="201.153.109.178" dyno=web.1 connect=3ms service=9ms status=304 bytes=1050
+2014-06-10T17:47:18.018810+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:18.018860+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:18.017217+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T17:47:18.015425+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:18 +0000
+2014-06-10T17:47:18.015438+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:18 +0000
+2014-06-10T17:47:18.016423+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:47:18.016456+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:47:18.017212+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T17:47:14.031814+00:00 heroku[web.1]: Process exited with status 0
+2014-06-10T17:47:19.586587+00:00 heroku[router]: at=info method=GET path=/forms host=gentle-temple-7248.herokuapp.com request_id=31d9026e-ea71-4e10-8664-98c63d9ba188 fwd="201.153.109.178" dyno=web.1 connect=2ms service=5ms status=301 bytes=408
+2014-06-10T17:47:19.762625+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=fce66d84-13c1-448e-9b09-8d838aa5f230 fwd="201.153.109.178" dyno=web.1 connect=2ms service=8ms status=304 bytes=1050
+2014-06-10T17:47:19.576933+00:00 app[web.1]: Started GET "/forms" for 201.153.109.178 at 2014-06-10 17:47:19 +0000
+2014-06-10T17:47:19.755248+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:19 +0000
+2014-06-10T17:47:19.755237+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:19 +0000
+2014-06-10T17:47:19.576971+00:00 app[web.1]: 
+Started GET "/forms" for 201.153.109.178 at 2014-06-10 17:47:19 +0000
+2014-06-10T17:47:19.756041+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:47:19.756522+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.0ms)
+2014-06-10T17:47:19.756529+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.0ms)
+2014-06-10T17:47:19.756048+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:47:19.757725+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:19.757719+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:20.020672+00:00 heroku[router]: at=info method=GET path=/templates/forms/index.html host=gentle-temple-7248.herokuapp.com request_id=6c15f134-fb09-4526-a3ad-0dfe12b06b99 fwd="201.153.109.178" dyno=web.1 connect=2ms service=4ms status=200 bytes=1861
+2014-06-10T17:47:20.191224+00:00 heroku[router]: at=info method=GET path=/api/forms host=gentle-temple-7248.herokuapp.com request_id=b7710dc2-fd59-4898-9444-3345935413b3 fwd="201.153.109.178" dyno=web.1 connect=2ms service=13ms status=302 bytes=1194
+2014-06-10T17:47:20.204605+00:00 heroku[router]: at=info method=GET path=/api/projects host=gentle-temple-7248.herokuapp.com request_id=26dbe28e-47e6-4c6f-b61e-2fee12e3b57b fwd="201.153.109.178" dyno=web.1 connect=2ms service=12ms status=302 bytes=1194
+2014-06-10T17:47:20.324876+00:00 heroku[router]: at=info method=GET path=/login host=gentle-temple-7248.herokuapp.com request_id=5051ae0d-6d94-41c7-82f9-edf234b18f82 fwd="201.153.109.178" dyno=web.1 connect=4ms service=6ms status=301 bytes=408
+2014-06-10T17:47:20.176374+00:00 app[web.1]: Started GET "/api/forms" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.182180+00:00 app[web.1]: Filter chain halted as :require_login rendered or redirected
+2014-06-10T17:47:20.192635+00:00 app[web.1]: Processing by ProjectsController#index as JSON
+2014-06-10T17:47:20.176382+00:00 app[web.1]: Started GET "/api/forms" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.182477+00:00 app[web.1]: Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+2014-06-10T17:47:20.195475+00:00 app[web.1]: Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+2014-06-10T17:47:20.179377+00:00 app[web.1]: Processing by FormsController#index as JSON
+2014-06-10T17:47:20.192646+00:00 app[web.1]: Processing by ProjectsController#index as JSON
+2014-06-10T17:47:20.179365+00:00 app[web.1]: Processing by FormsController#index as JSON
+2014-06-10T17:47:20.181977+00:00 app[web.1]: Redirected to http://gentle-temple-7248.herokuapp.com/login
+2014-06-10T17:47:20.194549+00:00 app[web.1]: Filter chain halted as :require_login rendered or redirected
+2014-06-10T17:47:20.181965+00:00 app[web.1]: Redirected to http://gentle-temple-7248.herokuapp.com/login
+2014-06-10T17:47:20.320734+00:00 app[web.1]: Started GET "/login" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.182142+00:00 app[web.1]: Filter chain halted as :require_login rendered or redirected
+2014-06-10T17:47:20.194224+00:00 app[web.1]: Redirected to http://gentle-temple-7248.herokuapp.com/login
+2014-06-10T17:47:20.189264+00:00 app[web.1]: Started GET "/api/projects" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.195532+00:00 app[web.1]: Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+2014-06-10T17:47:20.194216+00:00 app[web.1]: Redirected to http://gentle-temple-7248.herokuapp.com/login
+2014-06-10T17:47:20.182480+00:00 app[web.1]: Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+2014-06-10T17:47:20.189277+00:00 app[web.1]: Started GET "/api/projects" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.320686+00:00 app[web.1]: Started GET "/login" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.194674+00:00 app[web.1]: Filter chain halted as :require_login rendered or redirected
+2014-06-10T17:47:20.452353+00:00 heroku[router]: at=info method=GET path=/login host=gentle-temple-7248.herokuapp.com request_id=dacac8f6-2af4-4811-94c1-480d5c137d44 fwd="201.153.109.178" dyno=web.1 connect=2ms service=5ms status=301 bytes=408
+2014-06-10T17:47:20.484209+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=76f88f19-a054-4795-9ac3-6a73ced19c52 fwd="201.153.109.178" dyno=web.1 connect=2ms service=17ms status=304 bytes=1050
+2014-06-10T17:47:20.684956+00:00 heroku[router]: at=info method=GET path=/ host=gentle-temple-7248.herokuapp.com request_id=d4e89f5d-d438-4d0f-ae43-8e262d1e50a0 fwd="201.153.109.178" dyno=web.1 connect=2ms service=11ms status=304 bytes=1050
+2014-06-10T17:47:20.450261+00:00 app[web.1]: Started GET "/login" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.476558+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.450250+00:00 app[web.1]: Started GET "/login" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.476567+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.478503+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:47:20.479826+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T17:47:20.481945+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:20.674745+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.481953+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:20.479842+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T17:47:20.676040+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:47:20.674757+00:00 app[web.1]: Started GET "/" for 201.153.109.178 at 2014-06-10 17:47:20 +0000
+2014-06-10T17:47:20.676048+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:47:20.676840+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T17:47:20.679110+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:20.676833+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T17:47:20.679170+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+2014-06-10T17:47:20.478622+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:51:42.678939+00:00 heroku[router]: at=info method=GET path=/ host=geosforms.herokuapp.com request_id=fae39b8a-a443-4621-9461-9844b75d2639 fwd="201.103.160.123" dyno=web.1 connect=1ms service=7ms status=200 bytes=2252
+2014-06-10T17:51:42.889979+00:00 heroku[router]: at=info method=GET path=/assets/application-22c31844cff8b588f993053e7c761f7c.css host=geosforms.herokuapp.com request_id=269b9d83-eb50-4a7e-8e39-09955b7d33bb fwd="201.103.160.123" dyno=web.1 connect=1ms service=6ms status=200 bytes=100825
+2014-06-10T17:51:42.915075+00:00 heroku[router]: at=info method=GET path=/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js host=geosforms.herokuapp.com request_id=efebd3d5-6b9a-4cea-a8f0-f242d2a101e7 fwd="201.103.160.123" dyno=web.1 connect=1ms service=15ms status=200 bytes=310913
+2014-06-10T17:51:42.674328+00:00 app[web.1]: Started GET "/" for 201.103.160.123 at 2014-06-10 17:51:42 +0000
+2014-06-10T17:51:42.674335+00:00 app[web.1]: Started GET "/" for 201.103.160.123 at 2014-06-10 17:51:42 +0000
+2014-06-10T17:51:42.675134+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:51:42.675763+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.0ms)
+2014-06-10T17:51:42.675758+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.0ms)
+2014-06-10T17:51:42.676942+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+2014-06-10T17:51:42.675140+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T17:51:42.676935+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+2014-06-10T17:51:44.082851+00:00 heroku[ro
+uter]: at=info method=GET path=/favicon.ico host=geosforms.herokuapp.com request_id=0c4c0f01-f0d5-45f7-97cc-65cc3f89ce56 fwd="201.103.160.123" dyno=web.1 connect=1ms service=2ms status=200 bytes=182
+2014-06-10T18:25:50.957703+00:00 heroku[router]: at=info method=GET path=/ host=geosforms.herokuapp.com request_id=234552fd-8f24-4c41-b826-d49f257c278e fwd="201.103.160.123" dyno=web.1 connect=1ms service=9ms status=200 bytes=2252
+2014-06-10T18:25:51.134597+00:00 heroku[router]: at=info method=GET path=/assets/application-22c31844cff8b588f993053e7c761f7c.css host=geosforms.herokuapp.com request_id=e781de3e-9fe8-4e0d-92a3-24bd7ab03877 fwd="201.103.160.123" dyno=web.1 connect=3ms service=12ms status=200 bytes=100825
+2014-06-10T18:25:50.944046+00:00 app[web.1]: Started GET "/" for 201.103.160.123 at 2014-06-10 18:25:50 +0000
+2014-06-10T18:25:50.944156+00:00 app[web.1]: Started GET "/" for 201.103.160.123 at 2014-06-10 18:25:50 +0000
+2014-06-10T18:25:50.945306+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T18:25:50.945312+00:00 app[web.1]: Processing by HomeController#index as HTML
+2014-06-10T18:25:50.945943+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T18:25:50.945949+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (0.1ms)
+2014-06-10T18:25:50.947818+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+2014-06-10T18:25:50.947812+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+2014-06-10T18:25:51.275646+00:00 heroku[router]: at=info method=GET path=/assets/application-6673c124df57ecd0e322c31e3d9eef7e.js host=geosforms.herokuapp.com request_id=9d661e15-0183-46ab-85ae-998dec17ed57 fwd="201.103.160.123" dyno=web.1 connect=1ms service=13ms status=200 bytes=310913
+2014-06-10T18:25:52.406592+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=geosforms.herokuapp.com request_id=7f091e44-61e3-44d8-808f-bea893826d48 fwd="201.103.160.123" dyno=web.1 connect=1ms service=2ms status=200 bytes=182
+2014-06-10T18:27:56.186407+00:00 heroku[router]: at=info method=POST path=/sessions host=geosforms.herokuapp.com request_id=89921d65-1977-4b6b-bd7e-ff72519cf09e fwd="201.153.109.178" dyno=web.1 connect=2ms service=10ms status=404 bytes=1570
+2014-06-10T18:27:56.182792+00:00 app[web.1]: Started POST "/sessions" for 201.153.109.178 at 2014-06-10 18:27:56 +0000
+2014-06-10T18:27:56.184193+00:00 app[web.1]: 
+2014-06-10T18:27:56.182744+00:00 app[web.1]: Started POST "/sessions" for 201.153.109.178 at 2014-06-10 18:27:56 +0000
+2014-06-10T18:27:56.184246+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T18:27:56.184232+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T18:27:56.184238+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T18:27:56.184242+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T18:27:56.184224+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T18:27:56.184197+00:00 app[web.1]: ActionController::RoutingError (No route matches [POST] "/sessions"):
+2014-06-10T18:27:56.184226+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T18:27:56.184259+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T18:27:56.184255+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T18:27:56.184257+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T18:27:56.184236+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T18:27:56.184234+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T18:27:56.184228+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T18:27:56.184230+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T18:27:56.184244+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T18:27:56.184240+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T18:27:56.184248+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-06-10T18:27:56.184261+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T18:27:56.184329+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T18:27:56.184325+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T18:27:56.184327+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T18:27:56.184250+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T18:27:56.184253+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T18:27:56.184265+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T18:27:56.184263+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T18:27:56.184267+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T18:27:56.184336+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T18:27:56.184334+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T18:27:56.184369+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T18:27:56.184331+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T18:27:56.184365+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T18:27:56.184332+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T18:27:56.184367+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T18:27:56.184394+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T18:27:56.184402+00:00 app[web.1]: 
+2014-06-10T18:27:56.184387+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T18:27:56.184399+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T18:27:56.184392+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T18:27:56.184400+00:00 app[web.1]: 
+2014-06-10T18:27:56.184272+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T18:27:56.184268+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T18:27:56.184270+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T18:27:56.184274+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T18:27:56.184276+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T18:27:56.184282+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T18:27:56.184293+00:00 app[web.1]: 
+2014-06-10T18:27:56.184278+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T18:27:56.184280+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T18:27:56.184286+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T18:27:56.184284+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T18:27:56.184288+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T18:27:56.184338+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T18:27:56.184290+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T18:27:56.184291+00:00 app[web.1]: 
+2014-06-10T18:27:56.184323+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T18:27:56.184317+00:00 app[web.1]: ActionController::RoutingError (No route matches [POST] "/sessions"):
+2014-06-10T18:27:56.184347+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T18:27:56.184381+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T18:27:56.184397+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T18:27:56.184315+00:00 app[web.1]: 
+2014-06-10T18:27:56.184319+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T18:27:56.184371+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T18:27:56.184321+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T18:27:56.184340+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T18:27:56.184342+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-06-10T18:27:56.184383+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T18:27:56.184345+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T18:27:56.184375+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T18:27:56.184373+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T18:27:56.184377+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T18:27:56.184378+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T18:27:56.184395+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T18:27:56.184389+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T18:27:56.184385+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T18:27:56.184390+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T18:29:42.980159+00:00 heroku[router]: at=info method=GET path=/sessions host=geosforms.herokuapp.com request_id=b37b00d4-2f3c-4c9c-b769-35a8606dc738 fwd="201.103.160.123" dyno=web.1 connect=2ms service=6ms status=404 bytes=1570
+2014-06-10T18:29:42.975930+00:00 app[web.1]: Started GET "/sessions" for 201.103.160.123 at 2014-06-10 18:29:42 +0000
+2014-06-10T18:29:42.977114+00:00 app[web.1]: 
+2014-06-10T18:29:42.977122+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T18:29:42.975940+00:00 app[web.1]: Started GET "/sessions" for 201.103.160.123 at 2014-06-10 18:29:42 +0000
+2014-06-10T18:29:42.977117+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/sessions"):
+2014-06-10T18:29:42.977124+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T18:29:42.977131+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T18:29:42.977120+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T18:29:42.977119+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T18:29:42.977136+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T18:29:42.977125+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T18:29:42.977139+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T18:29:42.977140+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T18:29:42.977128+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T18:29:42.977127+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T18:29:42.977144+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T18:29:42.977152+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T18:29:42.977147+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T18:29:42.977157+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T18:29:42.977138+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-06-10T18:29:42.977167+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T18:29:42.977130+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T18:29:42.977173+00:00 app[web.1]: 
+2014-06-10T18:29:42.977133+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T18:29:42.977134+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T18:29:42.977160+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T18:29:42.977166+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T18:29:42.977151+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T18:29:42.977172+00:00 app[web.1]: 
+2014-06-10T18:29:42.977146+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T18:29:42.977142+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T18:29:42.977182+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T18:29:42.977196+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T18:29:42.977149+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T18:29:42.977154+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T18:29:42.977215+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T18:29:42.977243+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T18:29:42.977178+00:00 app[web.1]: 
+2014-06-10T18:29:42.977184+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T18:29:42.977158+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T18:29:42.977164+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T18:29:42.977204+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T18:29:42.977210+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T18:29:42.977179+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/sessions"):
+2014-06-10T18:29:42.977241+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T18:29:42.977244+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T18:29:42.977246+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T18:29:42.977190+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T18:29:42.977205+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T18:29:42.977209+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T18:29:42.977253+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T18:29:42.977163+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T18:29:42.977213+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T18:29:42.977187+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T18:29:42.977189+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T18:29:42.977192+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T18:29:42.977155+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T18:29:42.977181+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T18:29:42.977195+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T18:29:42.977161+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T18:29:42.977170+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T18:29:42.977249+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T18:29:42.977247+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T18:29:42.977207+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T18:29:42.977169+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T18:29:42.977212+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T18:29:42.977256+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T18:29:42.977251+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T18:29:42.977193+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T18:29:42.977202+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T18:29:42.977250+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T18:29:42.977185+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T18:29:42.977198+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T18:29:42.977199+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-06-10T18:29:42.977201+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T18:29:42.977254+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T18:29:42.977258+00:00 app[web.1]: 
+2014-06-10T18:29:42.977257+00:00 app[web.1]: 
+2014-06-10T18:30:00.259382+00:00 heroku[router]: at=info method=POST path=/sessions host=geosforms.herokuapp.com request_id=1be13913-4cae-4e8c-893a-2f518e58b73a fwd="201.153.109.178" dyno=web.1 connect=3ms service=8ms status=404 bytes=1570
+2014-06-10T18:30:00.245322+00:00 app[web.1]: Started POST "/sessions" for 201.153.109.178 at 2014-06-10 18:30:00 +0000
+2014-06-10T18:30:00.247652+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T18:30:00.247616+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T18:30:00.245332+00:00 app[web.1]: Started POST "/sessions" for 201.153.109.178 at 2014-06-10 18:30:00 +0000
+2014-06-10T18:30:00.247612+00:00 app[web.1]: 
+2014-06-10T18:30:00.247614+00:00 app[web.1]: ActionController::RoutingError (No route matches [POST] "/sessions"):
+2014-06-10T18:30:00.247656+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T18:30:00.247644+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T18:30:00.247646+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T18:30:00.2
+47618+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T18:30:00.247659+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T18:30:00.247668+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T18:30:00.247647+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T18:30:00.247651+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T18:30:00.247650+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T18:30:00.247660+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T18:30:00.247665+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T18:30:00.247670+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T18:30:00.247677+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T18:30:00.247654+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T18:30:00.247679+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T18:30:00.247661+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T18:30:00.247669+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T18:30:00.247675+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T18:30:00.247683+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T18:30:00.247687+00:00 app[web.1]: 
+2014-06-10T18:30:00.247698+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T18:30:00.247705+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T18:30:00.247708+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T18:30:00.247674+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T18:30:00.247729+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T18:30:00.247648+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T18:30:00.247663+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T18:30:00.247685+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T18:30:00.247686+00:00 app[web.1]: 
+2014-06-10T18:30:00.247693+00:00 app[web.1]: ActionController::RoutingError (No route matches [POST] "/sessions"):
+2014-06-10T18:30:00.247713+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T18:30:00.247754+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T18:30:00.247684+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T18:30:00.247692+00:00 app[web.1]: 
+2014-06-10T18:30:00.247700+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T18:30:00.247702+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T18:30:00.247704+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T18:30:00.247706+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T18:30:00.247734+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T18:30:00.247711+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T18:30:00.247714+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T18:30:00.247719+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T18:30:00.247721+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T18:30:00.247726+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T18:30:00.247761+00:00 app[web.1]: 
+2014-06-10T18:30:00.247672+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T18:30:00.247655+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T18:30:00.247657+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-06-10T18:30:00.247667+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T18:30:00.247673+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T18:30:00.247680+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T18:30:00.247715+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T18:30:00.247722+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T18:30:00.247724+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T18:30:00.247681+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T18:30:00.247725+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T18:30:00.247758+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T18:30:00.247695+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2014-06-10T18:30:00.247696+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T18:30:00.247697+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T18:30:00.247701+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T18:30:00.247709+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T18:30:00.247710+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-06-10T18:30:00.247728+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T18:30:00.247730+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T18:30:00.247731+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T18:30:00.247732+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T18:30:00.247756+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T18:30:00.247760+00:00 app[web.1]: 
+2014-06-10T18:30:00.247723+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T18:30:00.247757+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T18:30:00.247678+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T18:30:43.967338+00:00 heroku[router]: at=info method=POST path=/api/sessions host=geosforms.herokuapp.com request_id=db107f6b-fe2b-4a32-b404-ff9346d64cae fwd="201.153.109.178" dyno=web.1 connect=2ms service=10ms status=422 bytes=262
+2014-06-10T18:30:43.952398+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:30:43 +0000
+2014-06-10T18:30:43.952388+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:30:43 +0000
+2014-06-10T18:30:43.959196+00:00 app[web.1]: 
+2014-06-10T18:30:43.954768+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:30:43.956041+00:00 app[web.1]: Completed 422 Unprocessable Entity in 1ms
+2014-06-10T18:30:43.954693+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:30:43.959202+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+2014-06-10T18:30:43.959209+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:377:in `_run__937485531005360789__process_action__callbacks'
+2014-06-10T18:30:43.959204+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+2014-06-10T18:30:43.959213+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+2014-06-10T18:30:43.959224+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+2014-06-10T18:30:43.954699+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:30:43.959210+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-06-10T18:30:43.956046+00:00 app[web.1]: Completed 422 Unprocessable Entity in 1ms
+2014-06-10T18:30:43.954745+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:30:43.955540+00:00 app[web.1]: Can't verify CSRF token authenticity
+2014-06-10T18:30:43.959215+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+2014-06-10T18:30:43.959220+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+2014-06-10T18:30:43.959217+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+2014-06-10T18:30:43.959207+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+2014-06-10T18:30:43.959221+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+2014-06-10T18:30:43.959235+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+2014-06-10T18:30:43.959243+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+2014-06-10T18:30:43.959245+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:35:in `call'
+2014-06-10T18:30:43.959254+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+2014-06-10T18:30:43.959256+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+2014-06-10T18:30:43.959218+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+2014-06-10T18:30:43.959260+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+2014-06-10T18:30:43.959226+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+2014-06-10T18:30:43.959230+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+2014-06-10T18:30:43.959233+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+2014-06-10T18:30:43.959231+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+2014-06-10T18:30:43.959238+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+2014-06-10T18:30:43.959257+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+2014-06-10T18:30:43.959262+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+2014-06-10T18:30:43.959269+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+2014-06-10T18:30:43.955520+00:00 app[web.1]: Can't verify CSRF token authenticity
+2014-06-10T18:30:43.959205+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/sorcery-0.8.5/lib/sorcery/controller.rb:115:in `handle_unverified_request'
+2014-06-10T18:30:43.959237+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+2014-06-10T18:30:43.959280+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T18:30:43.959285+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T18:30:43.959271+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+2014-06-10T18:30:43.959284+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T18:30:43.959274+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-06-10T18:30:43.959287+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T18:30:43.959212+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+2014-06-10T18:30:43.959273+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__198730417048029274__call__callbacks'
+2014-06-10T18:30:43.959299+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T18:30:43.959223+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+2014-06-10T18:30:43.959240+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+2014-06-10T18:30:43.959297+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-06-10T18:30:43.959229+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+2014-06-10T18:30:43.959200+00:00 app[web.1]: ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+2014-06-10T18:30:43.959276+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+2014-06-10T18:30:43.959300+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T18:30:43.959242+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+2014-06-10T18:30:43.959312+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T18:30:43.959338+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T18:30:43.959341+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T18:30:43.959277+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+2014-06-10T18:30:43.959303+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T18:30:43.959234+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+2014-06-10T18:30:43.959259+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+2014-06-10T18:30:43.959307+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T18:30:43.959227+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+2014-06-10T18:30:43.959294+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T18:30:43.959302+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T18:30:43.959279+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+2014-06-10T18:30:43.959305+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T18:30:43.959345+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T18:30:43.959263+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+2014-06-10T18:30:43.959348+00:00 app[web.1]: 
+2014-06-10T18:30:43.959369+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/sorcery-0.8.5/lib/sorcery/controller.rb:115:in `handle_unverified_request'
+2014-06-10T18:30:43.959388+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+2014-06-10T18:30:43.959381+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:377:in `_run__937485531005360789__process_action__callbacks'
+2014-06-10T18:30:43.959306+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T18:30:43.959309+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T18:30:43.959337+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T18:30:43.959351+00:00 app[web.1]: 
+2014-06-10T18:30:43.959391+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+2014-06-10T18:30:43.959392+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+2014-06-10T18:30:43.959402+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+2014-06-10T18:30:43.959382+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-06-10T18:30:43.959387+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+2014-06-10T18:30:43.959390+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+2014-06-10T18:30:43.959362+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+2014-06-10T18:30:43.959342+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T18:30:43.959344+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T18:30:43.959310+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T18:30:43.959415+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:35:in `call'
+2014-06-10T18:30:43.959352+00:00 app[web.1]: ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+2014-06-10T18:30:43.959404+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+2014-06-10T18:30:43.959405+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+2014-06-10T18:30:43.959407+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+2014-06-10T18:30:43.959408+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+2014-06-10T18:30:43.959409+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+2014-06-10T18:30:43.959416+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+2014-06-10T18:30:43.959347+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T18:30:43.959313+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T18:30:43.959282+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T18:30:43.959411+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+2014-06-10T18:30:43.959427+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+2014-06-10T18:30:43.959433+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-06-10T18:30:43.959422+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+2014-06-10T18:30:43.959315+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T18:30:43.959426+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+2014-06-10T18:30:43.959456+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T18:30:43.959412+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+2014-06-10T18:30:43.959435+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+2014-06-10T18:30:43.959440+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T18:30:43.959459+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T18:30:43.959460+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T18:30:43.959436+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+2014-06-10T18:30:43.959449+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T18:30:43.959335+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T18:30:43.959394+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+2014-06-10T18:30:43.959395+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+2014-06-10T18:30:43.959288+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T18:30:43.959290+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T18:30:43.959445+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T18:30:43.959480+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T18:30:43.959485+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T18:30:43.959500+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T18:30:43.959413+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+2014-06-10T18:30:43.959458+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T18:30:43.959499+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T18:30:43.959446+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T18:30:43.959466+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T18:30:43.959476+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T18:30:43.959481+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T18:30:43.959503+00:00 app[web.1]: 
+2014-06-10T18:30:43.959487+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T18:30:43.959488+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T18:30:43.959452+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T18:30:43.959453+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T18:30:43.959455+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-06-10T18:30:43.959340+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T18:30:43.959349+00:00 app[web.1]: 
+2014-06-10T18:30:43.959401+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+2014-06-10T18:30:43.959418+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+2014-06-10T18:30:43.959419+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+2014-06-10T18:30:43.959420+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+2014-06-10T18:30:43.959397+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+2014-06-10T18:30:43.959398+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+2014-06-10T18:30:43.959399+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+2014-06-10T18:30:43.959424+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+2014-06-10T18:30:43.959429+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__198730417048029274__call__callbacks'
+2014-06-10T18:30:43.959438+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+2014-06-10T18:30:43.959291+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T18:30:43.959293+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T18:30:43.959296+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T18:30:43.959364+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+2014-06-10T18:30:43.959379+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+2014-06-10T18:30:43.959504+00:00 app[web.1]: 
+2014-06-10T18:30:43.959464+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T18:30:43.959482+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T18:30:43.959490+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T18:30:43.959423+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+2014-06-10T18:30:43.959443+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T18:30:43.959478+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T18:30:43.959442+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T18:30:43.959448+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T18:30:43.959451+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T18:30:43.959484+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T18:30:43.959384+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+2014-06-10T18:30:43.959385+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+2014-06-10T18:30:43.959439+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T18:30:43.959462+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T18:30:43.959463+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T18:30:43.959502+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T18:36:50.886698+00:00 heroku[router]: at=info method=POST path=/api/sessions host=geosforms.herokuapp.com request_id=5eaea344-e542-4f79-b1b5-4c113f7ec01f fwd="201.153.109.178" dyno=web.1 connect=3ms service=27ms status=422 bytes=262
+2014-06-10T18:36:50.868067+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+2014-06-10T18:36:50.868095+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__198730417048029274__call__callbacks'
+2014-06-10T18:36:50.868097+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-06-10T18:36:50.855503+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:36:50 +0000
+2014-06-10T18:36:50.855513+00:00 app[web.1]: Started POST "/api/sessions" for 201.153.109.178 at 2014-06-10 18:36:50 +0000
+2014-06-10T18:36:50.857368+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:36:50.857360+00:00 app[web.1]: Processing by SessionsController#create as JSON
+2014-06-10T18:36:50.857372+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:36:50.857389+00:00 app[web.1]:   Parameters: {"username"=>"ricardo", "password"=>"[FILTERED]"}
+2014-06-10T18:36:50.857681+00:00 app[web.1]: Can't verify CSRF token authenticity
+2014-06-10T18:36:50.868094+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+2014-06-10T18:36:50.868102+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T18:36:50.868104+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T18:36:50.868113+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T18:36:50.868103+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T18:36:50.868112+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T18:36:50.857717+00:00 app[web.1]: Can't verify CSRF token authenticity
+2014-06-10T18:36:50.865830+00:00 app[web.1]: Completed 422 Unprocessable Entity in 8ms
+2014-06-10T18:36:50.865837+00:00 app[web.1]: Completed 422 Unprocessable Entity in 8ms
+2014-06-10T18:36:50.868037+00:00 app[web.1]: 
+2014-06-10T18:36:50.868040+00:00 app[web.1]: ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+2014-06-10T18:36:50.868041+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+2014-06-10T18:36:50.868043+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+2014-06-10T18:36:50.868110+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T18:36:50.868117+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T18:36:50.868114+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T18:36:50.868115+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-06-10T18:36:50.868153+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
+2014-06-10T18:36:50.868118+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T18:36:50.868050+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-06-10T18:36:50.868051+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+2014-06-10T18:36:50.868052+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+2014-06-10T18:36:50.868054+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+2014-06-10T18:36:50.868045+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/sorcery-0.8.5/lib/sorcery/controller.rb:115:in `handle_unverified_request'
+2014-06-10T18:36:50.868047+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+2014-06-10T18:36:50.868048+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:377:in `_run__937485531005360789__process_action__callbacks'
+2014-06-10T18:36:50.868119+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T18:36:50.868157+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T18:36:50.868120+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T18:36:50.868058+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+2014-06-10T18:36:50.868059+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+2014-06-10T18:36:50.868061+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+2014-06-10T18:36:50.868062+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+2014-06-10T18:36:50.868063+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+2014-06-10T18:36:50.868055+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+2014-06-10T18:36:50.868057+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+2014-06-10T18:36:50.868122+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T18:36:50.868177+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/sorcery-0.8.5/lib/sorcery/controller.rb:115:in `handle_unverified_request'
+2014-06-10T18:36:50.868124+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T18:36:50.868071+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+2014-06-10T18:36:50.868072+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+2014-06-10T18:36:50.868074+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+2014-06-10T18:36:50.868065+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+2014-06-10T18:36:50.868069+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+2014-06-10T18:36:50.868066+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+2014-06-10T18:36:50.868070+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+2014-06-10T18:36:50.868123+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T18:36:50.868184+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+2014-06-10T18:36:50.868125+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T18:36:50.868082+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+2014-06-10T18:36:50.868075+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+2014-06-10T18:36:50.868076+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+2014-06-10T18:36:50.868077+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+2014-06-10T18:36:50.868078+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+2014-06-10T18:36:50.868080+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:35:in `call'
+2014-06-10T18:36:50.868081+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+2014-06-10T18:36:50.868128+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T18:36:50.868189+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+2014-06-10T18:36:50.868127+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T18:36:50.868154+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T18:36:50.868085+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+2014-06-10T18:36:50.868087+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+2014-06-10T18:36:50.868086+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+2014-06-10T18:36:50.868088+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+2014-06-10T18:36:50.868093+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+2014-06-10T18:36:50.868100+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+2014-06-10T18:36:50.868083+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+2014-06-10T18:36:50.868192+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+2014-06-10T18:36:50.868152+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T18:36:50.868178+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+2014-06-10T18:36:50.868098+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+2014-06-10T18:36:50.868106+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T18:36:50.868107+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T18:36:50.868108+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T18:36:50.868109+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T18:36:50.868155+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T18:36:50.868099+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+2014-06-10T18:36:50.868199+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+2014-06-10T18:36:50.868158+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T18:36:50.868185+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+2014-06-10T18:36:50.868149+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T18:36:50.868151+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T18:36:50.868129+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T18:36:50.868159+00:00 app[web.1]: 
+2014-06-10T18:36:50.868130+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T18:36:50.868132+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T18:36:50.868203+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+2014-06-10T18:36:50.868179+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:377:in `_run__937485531005360789__process_action__callbacks'
+2014-06-10T18:36:50.868191+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+2014-06-10T18:36:50.868162+00:00 app[web.1]: ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+2014-06-10T18:36:50.868171+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+2014-06-10T18:36:50.868172+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+2014-06-10T18:36:50.868180+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-06-10T18:36:50.868181+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+2014-06-10T18:36:50.868160+00:00 app[web.1]: 
+2014-06-10T18:36:50.868161+00:00 app[web.1]: 
+2014-06-10T18:36:50.868205+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+2014-06-10T18:36:50.868196+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+2014-06-10T18:36:50.868198+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+2014-06-10T18:36:50.868195+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+2014-06-10T18:36:50.868206+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+2014-06-10T18:36:50.868188+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+2014-06-10T18:36:50.868193+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+2014-06-10T18:36:50.868218+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+2014-06-10T18:36:50.868186+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+2014-06-10T18:36:50.868183+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+2014-06-10T18:36:50.868209+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:35:in `call'
+2014-06-10T18:36:50.868197+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+2014-06-10T18:36:50.868201+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+2014-06-10T18:36:50.868230+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+2014-06-10T18:36:50.868231+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+2014-06-10T18:36:50.868222+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__198730417048029274__call__callbacks'
+2014-06-10T18:36:50.868229+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+2014-06-10T18:36:50.868225+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+2014-06-10T18:36:50.868219+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+2014-06-10T18:36:50.868220+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+2014-06-10T18:36:50.868213+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+2014-06-10T18:36:50.868202+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+2014-06-10T18:36:50.868208+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+2014-06-10T18:36:50.868234+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+2014-06-10T18:36:50.868239+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+2014-06-10T18:36:50.868232+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+2014-06-10T18:36:50.868237+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+2014-06-10T18:36:50.868226+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+2014-06-10T18:36:50.868228+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+2014-06-10T18:36:50.868215+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+2014-06-10T18:36:50.868207+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+2014-06-10T18:36:50.868212+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+2014-06-10T18:36:50.868235+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+2014-06-10T18:36:50.868253+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:53:in `process'
+2014-06-10T18:36:50.868236+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+2014-06-10T18:36:50.868246+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+2014-06-10T18:36:50.868249+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+2014-06-10T18:36:50.868241+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+2014-06-10T18:36:50.868211+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+2014-06-10T18:36:50.868240+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+2014-06-10T18:36:50.868255+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:39:in `receive_data'
+2014-06-10T18:36:50.868256+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+2014-06-10T18:36:50.868277+00:00 app[web.1]:   bin/rails:4:in `require'
+2014-06-10T18:36:50.868260+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+2014-06-10T18:36:50.868261+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+2014-06-10T18:36:50.868258+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+2014-06-10T18:36:50.868259+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+2014-06-10T18:36:50.868245+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+2014-06-10T18:36:50.868214+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+2014-06-10T18:36:50.868243+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+2014-06-10T18:36:50.868278+00:00 app[web.1]:   bin/rails:4:in `<main>'
+2014-06-10T18:36:50.868279+00:00 app[web.1]: 
+2014-06-10T18:36:50.868280+00:00 app[web.1]: 
+2014-06-10T18:36:50.868251+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `catch'
+2014-06-10T18:36:50.868217+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+2014-06-10T18:36:50.868250+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:86:in `block in pre_process'
+2014-06-10T18:36:50.868262+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/rack-1.5.2/lib/rack/server.rb:264:in `start'
+2014-06-10T18:36:50.868244+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+2014-06-10T18:36:50.868252+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/thin-1.6.2/lib/thin/connection.rb:84:in `pre_process'
+2014-06-10T18:36:50.868266+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `tap'
+2014-06-10T18:36:50.868247+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+2014-06-10T18:36:50.868263+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands/server.rb:84:in `start'
+2014-06-10T18:36:50.868275+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:71:in `<top (required)>'
+2014-06-10T18:36:50.868265+00:00 app[web.1]:   vendor/bundle/ruby/1.9.1/gems/railties-4.0.2/lib/rails/commands.rb:76:in `block in <top (required)>'
