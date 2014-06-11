@@ -4,7 +4,7 @@
 
 
 <div class="row">
-  <form name="newSession" class="col-md-10 col-md-push-1 form-inline" role="form"  ng-submit="login(session)" novalidate>
+  <form name="newSession" class="col-md-10 col-md-push-1 form-inline" role="form"  ng-submit="crear(session)" novalidate>
     <div class="form-group" ng-class="{ 'has-error' : newSession.email.$invalid && !newSession.email.$pristine }">
       Email: <input type="text" name="email" ng-model="session.email" class="form-control" required />
     </div>

@@ -1,10 +1,13 @@
-@app.controller 'SessionsCtrl', ['$scope', '$location', 'Session', ($scope, $location, Session) ->
+@app.controller 'SessionsCtrl', ['$scope', '$location', 'Login', 'Session', ($scope, $location, Login, Session) ->
 	$scope.alerts = []
+	$scope.a = "ok"
 
-	$scope.login = (params) ->
-		$scope.session = new Session(params)
-		Session.create($scope.session, ($data) ->
-			if $data.state == "Logged"
+	$scope.crear = (params) ->
+		$scope.login = new Login(params)
+		Login.create($scope.login, ($data) ->
+			if $data.user != null
+				Session.activate()
+				Session.setUser($data.user)
 				$location.path("/forms")
 			else
 				$scope.addAlert("danger", "Error en los datos")

@@ -1,5 +1,5 @@
 @app.controller 'ProjectsCtrl', 
-	['$scope', '$routeParams', '$location', '$log', 'Project', ($scope, $routeParams, $location, $log, Project) ->
+	['$scope', '$routeParams', '$location', '$log', 'Project', 'Session', ($scope, $routeParams, $location, $log, Project, Session) ->
 
 		$scope.viewAllProjects = true
 		$scope.viewSingleProject = false
