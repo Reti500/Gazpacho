@@ -21,6 +21,12 @@
 			$scope.form = angular.copy({})
 		)
 
+	$scope.delete = () ->
+		@deleteUser = window.confirm('Are you absolutely sure you want to delete?')
+
+		if @deleteUser
+			console.log("muere!!")
+
 	$scope.ver_pregunta = () ->
 		
 ]

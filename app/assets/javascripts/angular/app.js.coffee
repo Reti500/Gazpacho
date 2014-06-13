@@ -30,18 +30,6 @@ window.routes = {
 ])
 
 @app.run(($rootScope, $location, Session, Login) ->
-	# Login.verify({}, ($data)->
-	# 	if $data.user != null
-	# 		Session.activate()
-	# 	else
-	# 		console.log("error")
-	# 		$rootScope.$on("$routeChangeStart", ($event, $next, $current) ->
-	# 			if $next.requireLogin
-	# 				console.log("require login")
-	# 				$location.path("/login")
-	# 		)
-	# )
-
 	$rootScope.$on("$routeChangeStart", ($event, $next, $current) ->
 		# if $next.requireLogin && !Session.isAuthenticated()
 		# 	$location.path("/login")
@@ -52,3 +40,13 @@ window.routes = {
 	)
 	
 )
+
+# @app.directive('confirmationNeeded', () ->
+# 	@priority: 1
+#     @terminal: true
+#     link: (scope, element, attr) =>
+#     	@msg = attr.confirmationNeeded || "Are you sure?"
+#     	clickAction = attr.ngClick
+#     	element.bind('click', (click) ->
+#     		if window.confirm(msg)
+#     			$scope.$eval(clickAction)
